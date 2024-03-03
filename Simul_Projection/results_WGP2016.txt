@@ -1,0 +1,190 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                          %
+%    BAYESIAN ESTIMATION, ANALYSIS AND REGRESSION (BEAR) TOOLBOX           %
+%                                                                          %
+%    This statistical package has been developed by the external           %
+%    developments division of the European Central Bank.                   %
+%                                                                          %
+%    Authors:                                                              %
+%    Alistair Dieppe (alistair.dieppe@ecb.europa.eu)                       %
+%    Björn van Roye  (Bjorn.van_Roye@ecb.europa.eu)                        %
+%                                                                          %
+%    Version 5.0                                                           %
+%                                                                          %
+% The updated version 5 of BEAR has benefitted from contributions from     %
+%   Boris Blagov, Marius Schulte and Ben Schumann.                         %
+%                                                                          %
+%  This version builds-upon previous versions where Romain Legrand was     %
+%   instrumental in developing BEAR.                                       %
+%                                                                          %
+%    The authors are grateful to the following people for valuable input   %
+%    and advice which contributed to improve the quality of the toolbox:   %
+%    Paolo Bonomolo, Mirco Balatti, Marta Banbura, Niccolo Battistini,     %
+%	 Gabriel Bobeica, Martin Bruns, Fabio Canova, Matteo Ciccarelli,       %
+%    Marek Jarocinski, Michele Lenza, Francesca Loria, Mirela Miescu,      %
+%    Gary Koop, Chiara Osbat, Giorgio Primiceri, Martino Ricci,            %
+%    Michal Rubaszek, Barbara Rossi, Fabian Schupp,                        %
+%    Peter Welz and Hugo Vega de la Cruz. 						           %
+%                                                                          %
+%    These programmes are the responsibilities of the authors and not of   %
+%    the ECB and all errors and ommissions remain those of the authors.    %
+%                                                                          %
+%    Using the BEAR toolbox implies acceptance of the End User Licence     %
+%    Agreement and appropriate acknowledgement should be made.             %
+%                                                                          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+BEAR toolbox estimates
+Date: 24-Apr-2022   Time: 10:02
+
+
+Bayesian VAR
+structural decomposition: sign, zero restrictions (IRFt=4)
+endogenous variables:  hicp  gdp  app  10y  stockindex 
+exogenous variables:  constant 
+estimation sample: 2014m5-2018m12
+sample size (omitting initial conditions): 54
+number of lags included in regression: 2
+prior: normal-diffuse
+hyperparameters:
+autoregressive coefficients (ar):                0.8
+overall tightness (lambda1):                    1000
+cross-variable weighting (lambda2):             0.5
+lag decay (lambda3):                            1
+
+
+
+VAR coefficients (beta): posterior estimates
+
+Endogenous: hicp
+                                   Median          St.dev       Low.bound       Upp.bound
+                 hicp(-1)           0.533           0.127           0.293           0.787
+                 hicp(-2)           0.311           0.123           0.066           0.554
+                  gdp(-1)          -0.012           0.039          -0.092           0.064
+                  gdp(-2)           0.057           0.044          -0.027           0.148
+                  app(-1)           0.009           0.008          -0.007           0.025
+                  app(-2)           0.001           0.009          -0.015           0.019
+                  10y(-1)          -0.009           0.068          -0.146           0.122
+                  10y(-2)           0.048           0.060          -0.066           0.173
+           stockindex(-1)          -0.002           0.003          -0.009           0.004
+           stockindex(-2)           0.005           0.004          -0.003           0.012
+                 Constant           2.723          38.552         -72.426          72.894
+
+Sum of squared residuals: 20.67
+R-squared: 0.786
+adj. R-squared: 0.736
+
+
+Endogenous: gdp
+                                   Median          St.dev       Low.bound       Upp.bound
+                 hicp(-1)           0.441           0.427          -0.382           1.321
+                 hicp(-2)          -0.167           0.422          -1.020           0.677
+                  gdp(-1)           0.501           0.139           0.220           0.785
+                  gdp(-2)           0.234           0.143          -0.044           0.506
+                  app(-1)           0.088           0.028           0.034           0.142
+                  app(-2)          -0.047           0.029          -0.102           0.010
+                  10y(-1)           0.076           0.235          -0.389           0.551
+                  10y(-2)          -0.051           0.208          -0.474           0.345
+           stockindex(-1)           0.010           0.011          -0.013           0.031
+           stockindex(-2)          -0.004           0.012          -0.027           0.018
+                 Constant         252.483         127.840          -7.638         498.516
+
+Sum of squared residuals: 3682.97
+R-squared: -7.792
+adj. R-squared: -9.836
+
+
+Endogenous: app
+                                   Median          St.dev       Low.bound       Upp.bound
+                 hicp(-1)          -3.921           2.182          -7.980           0.423
+                 hicp(-2)           1.250           2.107          -2.896           5.352
+                  gdp(-1)           0.762           0.687          -0.592           2.113
+                  gdp(-2)           1.583           0.706           0.162           3.015
+                  app(-1)           0.521           0.136           0.265           0.805
+                  app(-2)           0.017           0.138          -0.256           0.276
+                  10y(-1)           2.288           1.127           0.166           4.583
+                  10y(-2)          -2.599           1.015          -4.698          -0.561
+           stockindex(-1)           0.061           0.056          -0.047           0.167
+           stockindex(-2)          -0.117           0.058          -0.234          -0.003
+                 Constant       -2195.566         630.163       -3455.395        -966.085
+
+Sum of squared residuals: 7399.63
+R-squared: -1.616
+adj. R-squared: -2.224
+
+
+Endogenous: 10y
+                                   Median          St.dev       Low.bound       Upp.bound
+                 hicp(-1)           0.359           0.262          -0.170           0.872
+                 hicp(-2)          -0.332           0.252          -0.824           0.211
+                  gdp(-1)          -0.114           0.082          -0.280           0.047
+                  gdp(-2)           0.145           0.082          -0.022           0.308
+                  app(-1)          -0.014           0.016          -0.046           0.018
+                  app(-2)          -0.010           0.016          -0.041           0.022
+                  10y(-1)           0.926           0.142           0.651           1.220
+                  10y(-2)          -0.250           0.126          -0.500          -0.002
+           stockindex(-1)           0.008           0.006          -0.004           0.021
+           stockindex(-2)          -0.002           0.007          -0.015           0.011
+                 Constant         -62.263          74.697        -203.826          91.030
+
+Sum of squared residuals: 34.03
+R-squared: -5.704
+adj. R-squared: -7.263
+
+
+Endogenous: stockindex
+                                   Median          St.dev       Low.bound       Upp.bound
+                 hicp(-1)          -1.276           5.918         -13.070          10.637
+                 hicp(-2)          -4.649           5.648         -15.909           6.332
+                  gdp(-1)           0.095           1.850          -3.501           3.806
+                  gdp(-2)           2.307           1.920          -1.633           5.879
+                  app(-1)          -0.215           0.364          -0.910           0.509
+                  app(-2)           0.423           0.381          -0.320           1.194
+                  10y(-1)           1.710           3.225          -4.963           8.245
+                  10y(-2)           0.092           2.857          -5.645           5.888
+           stockindex(-1)           1.077           0.150           0.779           1.370
+           stockindex(-2)          -0.257           0.159          -0.569           0.057
+                 Constant        -757.200        1719.361       -4087.076        2798.295
+
+Sum of squared residuals: 131629.08
+R-squared: -44.739
+adj. R-squared: -55.376
+
+
+Log 10 marginal likelihood: not applicable (improper prior)
+
+
+DIC test result: 334.25
+
+
+Roots of the characteristic polynomial (modulus):
+0.976  0.919  0.490  0.441  0.406
+0.919  0.587  0.490  0.441  0.406
+No root lies outside the unit circle.
+The estimated VAR model satisfies the stability condition
+
+
+sigma (residual covariance matrix): posterior estimates
+ 0.005   0.002  -0.014   0.001   0.052  
+ 0.002   0.053   0.039  -0.000   0.083  
+-0.014   0.039   1.337  -0.016   1.089  
+ 0.001  -0.000  -0.016   0.018  -0.100  
+ 0.052   0.083   1.089  -0.100   9.837  
+
+
+D (structural decomposition matrix): posterior estimates
+-0.037   0.055  -0.009   0.044   0.007  
+ 0.156   0.204   0.059   0.064   0.007  
+ 0.000  -0.000   1.033  -0.653   0.373  
+-0.001   0.085  -0.091  -0.100  -0.017  
+-1.115   0.938   2.348   0.558  -1.702  
+
+
+gamma (structural disturbances covariance matrix): posterior estimates
+ 1.000   0.000   0.000   0.000   0.000  
+ 0.000   1.000   0.000   0.000   0.000  
+ 0.000   0.000   1.000   0.000   0.000  
+ 0.000   0.000   0.000   1.000   0.000  
+ 0.000   0.000   0.000   0.000   1.000  

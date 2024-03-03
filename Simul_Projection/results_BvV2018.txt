@@ -1,0 +1,177 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                                    %
+%    BAYESIAN ESTIMATION, ANALYSIS AND REGRESSION (BEAR) TOOLBOX                                     %
+%                                                                                                    %
+%    This statistical package has been developed by the external developments division of the ECB.   %
+%                                                                                                    %
+%    Authors:                                                                                        %
+%    Romain Legrand  (Romain Legrand <b00148883@essec.edu>)                                          %
+%    Alistair Dieppe (adieppe@worldbank.org)                                                         %
+%    Björn van Roye  (Bjorn.van_Roye@ecb.europa.eu)                                                  %
+%                                                                                                    %
+%    Version 5.0                                                                                   %
+%                                                                                                    %
+%    The authors are grateful to Paolo Bonomolo, Marta Banbura, Martin Bruns, Fabio Canova,          %
+%    Matteo Ciccarelli, Marek Jarocinski, Niccolo Battistini, Gabriel Bobeica                        %
+%    Michele Lenza, Chiara Osbat, Mirela Miescu, Gary Koop, Giorgio Primiceri,                       %
+%  Michal Rubaszek, Barbara Rossi, Ben Schumann, Peter Welz, Hugo Vega de la Cruz and Francesca Loria%
+%  valuable input and advice which contributed to improve the quality of this work.                  %
+%                                                                                                    %
+%   These programmes are the responsibilities of the authors and not of the ECB and the Worldbank.   %
+%   Errors and ommissions remain those of the authors.                                               %
+%                                                                                                    %
+%    Please do not use or quote this work without permission.                                        %
+%                                                                                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+BEAR toolbox estimates
+Date: 21-Apr-2022   Time: 21:01
+
+
+Stochastic volatility BVAR
+Survey Local Mean Stochastic Volatility VAR
+structural decomposition: sign restrictions
+endogenous variables:  YER  HICSA  STN 
+exogenous variables:  none
+estimation sample: 1970q2-2020q1
+Size of the Trainingsample: 44
+sample size (omitting initial conditions and Trainingsample): 152
+number of lags included in regression: 4
+autoregressive coefficients (ar):                0
+overall tightness (lambda1):                    0.2
+cross-variable weighting (lambda2):             0.7071
+lag decay (lambda3):                            1
+AR coefficient of stochastic volatiltiy of VAR residuals(gamma):    1
+
+
+
+VAR coefficients (beta): posterior estimates
+
+Endogenous: YER
+                                   Median          St.dev       Low.bound       Upp.bound
+                  YER(-1)           0.314           0.077           0.154           0.458
+                  YER(-2)           0.090           0.066          -0.051           0.217
+                  YER(-3)           0.022           0.051          -0.078           0.115
+                  YER(-4)           0.017           0.041          -0.064           0.095
+                HICSA(-1)           0.027           0.117          -0.205           0.260
+                HICSA(-2)           0.007           0.098          -0.187           0.180
+                HICSA(-3)          -0.096           0.081          -0.262           0.060
+                HICSA(-4)          -0.084           0.064          -0.205           0.029
+                  STN(-1)          -0.032           0.046          -0.136           0.051
+                  STN(-2)          -0.005           0.040          -0.085           0.070
+                  STN(-3)           0.011           0.030          -0.050           0.069
+                  STN(-4)           0.009           0.021          -0.034           0.050
+
+Sum of squared residuals: 36.84
+R-squared: 0.253
+adj. R-squared: 0.195
+
+
+Endogenous: HICSA
+                                   Median          St.dev       Low.bound       Upp.bound
+                  YER(-1)           0.047           0.035          -0.023           0.119
+                  YER(-2)          -0.007           0.025          -0.054           0.046
+                  YER(-3)           0.001           0.019          -0.037           0.036
+                  YER(-4)           0.006           0.015          -0.027           0.036
+                HICSA(-1)           0.290           0.091           0.111           0.467
+                HICSA(-2)           0.015           0.070          -0.117           0.161
+                HICSA(-3)           0.136           0.055           0.021           0.238
+                HICSA(-4)           0.010           0.045          -0.070           0.096
+                  STN(-1)           0.040           0.023          -0.002           0.089
+                  STN(-2)          -0.005           0.020          -0.042           0.037
+                  STN(-3)          -0.010           0.014          -0.036           0.022
+                  STN(-4)          -0.006           0.011          -0.027           0.015
+
+Sum of squared residuals: 8.34
+R-squared: 0.342
+adj. R-squared: 0.291
+
+
+Endogenous: STN
+                                   Median          St.dev       Low.bound       Upp.bound
+                  YER(-1)           0.197           0.057           0.079           0.306
+                  YER(-2)           0.095           0.051          -0.000           0.195
+                  YER(-3)           0.028           0.042          -0.054           0.111
+                  YER(-4)          -0.008           0.035          -0.077           0.065
+                HICSA(-1)           0.239           0.091           0.064           0.420
+                HICSA(-2)           0.017           0.081          -0.149           0.171
+                HICSA(-3)           0.017           0.073          -0.134           0.156
+                HICSA(-4)           0.020           0.066          -0.119           0.150
+                  STN(-1)           1.008           0.084           0.828           1.160
+                  STN(-2)          -0.017           0.083          -0.174           0.149
+                  STN(-3)          -0.019           0.056          -0.124           0.091
+                  STN(-4)           0.004           0.038          -0.074           0.076
+
+Sum of squared residuals: 13.01
+R-squared: 0.991
+adj. R-squared: 0.991
+
+
+Roots of the characteristic polynomial (modulus):
+0.972  0.488  0.293
+0.660  0.312  0.176
+0.660  0.312  0.176
+0.488  0.293  0.092
+No root lies outside the unit circle.
+The estimated VAR model satisfies the stability condition
+
+
+sigma (residual covariance matrix): posterior estimates
+ 0.025   0.000   0.006  
+ 0.000   0.049   0.006  
+ 0.006   0.006   0.010  
+Note: Last period observation variance covariance matrix
+Note: The last period observation variance covariance matrix will also be used for identification.
+
+Accepted Draws in Percent of Total Number of Draws: 23.110700
+
+
+D (structural decomposition matrix): posterior estimates
+ 0.038   0.086   0.096  
+-0.105  -0.045   0.093  
+ 0.033  -0.026   0.058  
+
+
+gamma (structural disturbances covariance matrix): posterior estimates
+ 1.000   0.000   0.000  
+ 0.000   1.000   0.000  
+ 0.000   0.000   1.000  
+
+
+
+
+Forecast evaluation:
+
+Evaluation conducted over 12 periods (from 2017q2 to 2020q1).
+
+Endogenous: YER
+                 2017q2     2017q3     2017q4     2018q1     2018q2     2018q3     2018q4     2019q1     2019q2     2019q3     2019q4     2020q1
+RMSE:             0.154      0.230      0.273      0.246      0.222      0.219      0.204      0.191      0.188      0.195      0.195      0.190
+MAE:              0.154      0.220      0.261      0.230      0.197      0.198      0.179      0.157      0.158      0.167      0.169      0.165
+MAPE:            21.773     29.229     34.087     38.416     34.320     45.100     41.524     36.482     40.035     52.325     55.927     54.692
+Theil's U:        0.122      0.181      0.217      0.215      0.205      0.213      0.205      0.197      0.199      0.213      0.218      0.215
+CRPS:             0.048      0.049      0.054      0.054      0.055      0.055      0.058      0.057      0.059      0.058      0.060      0.060
+Log score 1:      0.442     -0.156     -0.471      0.187      0.516     -0.187      0.521      0.644      0.038     -0.473     -0.078      0.346
+Log score 2:      0.442      0.642      0.911     -0.282      0.299      0.430      1.149      1.907      2.176      2.345      3.019      3.842
+
+Endogenous: HICSA
+                 2017q2     2017q3     2017q4     2018q1     2018q2     2018q3     2018q4     2019q1     2019q2     2019q3     2019q4     2020q1
+RMSE:             0.404      0.345      0.282      0.247      0.224      0.206      0.194      0.237      0.226      0.232      0.232      0.226
+MAE:              0.404      0.339      0.232      0.193      0.170      0.152      0.143      0.180      0.170      0.181      0.186      0.182
+MAPE:           552.818    351.832    235.865    180.473    147.229    124.807    110.739    358.337    320.453    305.847    289.881    269.797
+Theil's U:        0.734      0.571      0.367      0.295      0.256      0.233      0.222      0.281      0.263      0.276      0.283      0.278
+CRPS:             0.062      0.067      0.068      0.067      0.069      0.068      0.070      0.068      0.069      0.075      0.071      0.070
+Log score 1:     -0.758     -0.035      0.479      0.352      0.320      0.407      0.427     -0.847      0.375     -0.150     -0.064      0.316
+Log score 2:     -0.758     -0.369     -0.154      0.027      0.368      0.940      1.419      0.257      0.344      0.180      0.638      1.194
+
+Endogenous: STN
+                 2017q2     2017q3     2017q4     2018q1     2018q2     2018q3     2018q4     2019q1     2019q2     2019q3     2019q4     2020q1
+RMSE:             0.212      0.297      0.370      0.429      0.481      0.524      0.565      0.593      0.622      0.662      0.700      0.741
+MAE:              0.212      0.287      0.353      0.407      0.456      0.497      0.535      0.563      0.591      0.627      0.662      0.697
+MAPE:            64.301     87.160    107.208    123.799    138.958    152.430    165.207    175.420    184.592    190.064    195.188    200.665
+Theil's U:        0.474      0.714      0.834      0.884      0.908      0.923      0.933      0.941      0.947      0.956      0.962      0.967
+CRPS:             0.032      0.056      0.080      0.102      0.123      0.139      0.151      0.164      0.173      0.189      0.205      0.214
+Log score 1:     -0.509     -0.960     -1.177     -1.322     -1.379     -1.423     -1.483     -1.535     -1.620     -1.858     -1.933     -2.002
+Log score 2:     -0.509      0.424      1.500      2.682      3.995      5.386      6.841      8.389      9.940     10.744     12.383     14.093

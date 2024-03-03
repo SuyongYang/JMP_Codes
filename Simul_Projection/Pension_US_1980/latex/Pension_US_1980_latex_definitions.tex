@@ -1,0 +1,366 @@
+\begin{center}
+\begin{longtable}{ccc}
+\caption{Endogenous}\\%
+\hline%
+\multicolumn{1}{c}{\textbf{Variable}} &
+\multicolumn{1}{c}{\textbf{\LaTeX}} &
+\multicolumn{1}{c}{\textbf{Description}}\\%
+\hline\hline%
+\endfirsthead
+\multicolumn{3}{c}{{\tablename} \thetable{} -- Continued}\\%
+\hline%
+\multicolumn{1}{c}{\textbf{Variable}} &
+\multicolumn{1}{c}{\textbf{\LaTeX}} &
+\multicolumn{1}{c}{\textbf{Description}}\\%
+\hline\hline%
+\endhead
+\texttt{r\_star} & ${r^*}$ & foreign real interest rate\\
+\texttt{rk\_star} & ${r^k^*}$ & foreign capital rent\\
+\texttt{w\_star} & ${w^*}$ & labor income / GDP\\
+\texttt{b\_star} & ${b^*}$ & investment of R\&D and adoption / GDP\\
+\texttt{y\_star} & ${y^*}$ & disposible income / GDP\\
+\texttt{varpi\_star} & ${\varpi^*}$ & adoption investment X number of new ideas / GDP\\
+\texttt{s\_star} & ${s^*}$ & R\&D investment / GDP\\
+\texttt{inv\_star} & ${i^*}$ & fixed capital investment / GDP\\
+\texttt{invG\_star} & ${g^i^*}$ & fixed capital investment growth\\
+\texttt{c\_star} & ${c^*}$ & consumption / GDP\\
+\texttt{cw\_star} & ${c^w^*}$ & consumption of worker / GDP\\
+\texttt{cr\_star} & ${c^r^*}$ & consumption of retiree / GDP\\
+\texttt{tauw\_star} & $\tilde{\tau}^*$ & health care, pension, education cost / GDP\\
+\texttt{N\_star} & ${N^f^*}$ & number of input firms\\
+\texttt{stoyw\_star} & ${\gamma^{yw}^*}$ & share of R\&D worker\\
+\texttt{PiF\_star} & ${\pi^F^*}$ & profits of financial intermediary / GDP\\
+\texttt{Tw\_star} & $\tilde{T}^w^*$ & present value of education, health, pension / GDP\\
+\texttt{hw\_star} & ${h^w^*}$ & present value of workers labor income / GDP\\
+\texttt{Dr\_star} & $\tilde{D}^r^*$ & present value of retirees dividends / GDP\\
+\texttt{Dw\_star} & $\tilde{D}^w^*$ & present value of workers dividends / GDP\\
+\texttt{ep\_star} & ${\epsilon^*}$ & retiree MPC adjustment factor\\
+\texttt{varsig\_star} & ${\varsigma^*}$ & MPC of worker\\
+\texttt{zetar\_star} & ${\zeta^r^*}$ & retirees / workers\\
+\texttt{zetay\_star} & ${\zeta^y^*}$ & youth / workers\\
+\texttt{gw\_star} & ${g^w^*}$ & growth rate of workers\\
+\texttt{g\_star} & ${g^*}$ & growth rate of GDP\\
+\texttt{gE\_star} & ${g^{\xi}^*}$ & growth rate of average effective unit of labor\\
+\texttt{iy\_star} & ${i^y^*}$ & education investment / average effective unit of labor\\
+\texttt{gpc\_star} & ${g_{dypc}^*}$ & disposable income per capita growth\\
+\texttt{zz\_star} & ${\mathfrak{Z}^*}$ & local variable for symbolic briefness\\
+\texttt{far\_star} & ${fa^r^*}$ & financial assets of retirees / GDP\\
+\texttt{faw\_star} & ${fa^w^*}$ & financial assets of workers / GDP\\
+\texttt{dr\_star} & $\tilde{d}^r^*$ & dividends of retirees / GDP\\
+\texttt{dw\_star} & $\tilde{d}^w^*$ & dividends of workers / GDP\\
+\texttt{mu\_star} & ${\mu^*}$ & markup of input firms\\
+\texttt{k\_star} & ${k^*}$ & aggregate fixed capital / GDP\\
+\texttt{u\_star} & ${u^*}$ & capital utilization rate\\
+\texttt{del\_star} & ${\delta^*}$ & depreciation rate\\
+\texttt{delprime\_star} & ${\delta^\prime^*}$ & differentiation of depreciation rate\\
+\texttt{gM\_star} & ${g^M^*}$ & growth rate of aggregate intermediate composite goods\\
+\texttt{v\_star} & ${v^*}$ & aggregate value of adopted goods / GDP\\
+\texttt{j\_star} & ${j^*}$ & aggregate value of new ideas / GDP\\
+\texttt{lam\_star} & ${\lambda^*}$ & probability of success of adoption investment\\
+\texttt{gA\_star} & ${g^A^*}$ & growth rate of adopted goods\\
+\texttt{za\_star} & ${z^a^*}$ & number of aggregate new ideas / number of adopted goods\\
+\texttt{PiA\_star} & ${\pi^A^*}$ & profits for adpoters / GDP\\
+\texttt{PiRD\_star} & ${\pi^{RD}^*}$ & profits for R\&D sector\\
+\texttt{fa\_star} & ${fa^*}$ & aggregate financial assets / GDP\\
+\texttt{n\_star} & ${n^*}$ & growth rate of young population\\
+\texttt{gn\_star} & ${g^n^*}$ & growth rate of total population\\
+\texttt{gy\_star} & ${g^y^*}$ & growth rate of disposable income\\
+\texttt{gamma\_star} & ${\gamma^*}$ & probability of retiree survival rate\\
+\texttt{OMEGAY\_star} & ${\omega^y^*}$ & probability of staying young\\
+\texttt{fert\_star} & ${fert^*}$ & fertility\\
+\texttt{psi\_star} & ${\psi^*}$ & operation cost / GDP\\
+\texttt{tauwE\_star} & $\tilde{\tau}^E^*$ & education cost / GDP\\
+\texttt{tauwA\_star} & $\tilde{\tau}^A^*$ & pension and health care cost / GDP\\
+\texttt{ay\_star} & ${ay^*}$ & average labor income / GDP\\
+\texttt{tpe\_star} & ${tpe^*}$ & total payment of pensions / GDP\\
+\texttt{Pe\_star} & ${Pe^*}$ & present value of life long pension for retirees / GDP\\
+\texttt{he\_star} & ${he^*}$ & aggregate health expenditure / GDP\\
+\texttt{en\_star} & ${en^*}$ & population growth shock\\
+\texttt{ey\_star} & ${ey^*}$ & share of workers shock\\
+\texttt{er\_star} & ${er^*}$ & share of retirees shock\\
+\texttt{shockn\_star} & ${shockn^*}$ & sequence of population shocks\\
+\texttt{shocky\_star} & ${shocky^*}$ & sequence of share of workers shocks\\
+\texttt{shockr\_star} & ${shockr^*}$ & sequence of share of retirees shocks\\
+\texttt{shareW\_star} & ${shareW^*}$ & workers / population\\
+\texttt{shareR\_star} & ${shareR^*}$ & retirees / population\\
+\texttt{AUX\_ENDO\_LAG\_24\_1} & $AUX\_ENDO\_LAG\_24\_1$ & AUX\_ENDO\_LAG\_24\_1\\
+\texttt{AUX\_ENDO\_LAG\_35\_1} & $AUX\_ENDO\_LAG\_35\_1$ & AUX\_ENDO\_LAG\_35\_1\\
+\texttt{AUX\_ENDO\_LAG\_44\_1} & $AUX\_ENDO\_LAG\_44\_1$ & AUX\_ENDO\_LAG\_44\_1\\
+\texttt{AUX\_ENDO\_LAG\_64\_1} & $AUX\_ENDO\_LAG\_64\_1$ & AUX\_ENDO\_LAG\_64\_1\\
+\texttt{AUX\_ENDO\_LAG\_64\_2} & $AUX\_ENDO\_LAG\_64\_2$ & AUX\_ENDO\_LAG\_64\_2\\
+\texttt{AUX\_ENDO\_LAG\_64\_3} & $AUX\_ENDO\_LAG\_64\_3$ & AUX\_ENDO\_LAG\_64\_3\\
+\texttt{AUX\_ENDO\_LAG\_64\_4} & $AUX\_ENDO\_LAG\_64\_4$ & AUX\_ENDO\_LAG\_64\_4\\
+\texttt{AUX\_ENDO\_LAG\_64\_5} & $AUX\_ENDO\_LAG\_64\_5$ & AUX\_ENDO\_LAG\_64\_5\\
+\texttt{AUX\_ENDO\_LAG\_64\_6} & $AUX\_ENDO\_LAG\_64\_6$ & AUX\_ENDO\_LAG\_64\_6\\
+\texttt{AUX\_ENDO\_LAG\_64\_7} & $AUX\_ENDO\_LAG\_64\_7$ & AUX\_ENDO\_LAG\_64\_7\\
+\texttt{AUX\_ENDO\_LAG\_64\_8} & $AUX\_ENDO\_LAG\_64\_8$ & AUX\_ENDO\_LAG\_64\_8\\
+\texttt{AUX\_ENDO\_LAG\_64\_9} & $AUX\_ENDO\_LAG\_64\_9$ & AUX\_ENDO\_LAG\_64\_9\\
+\texttt{AUX\_ENDO\_LAG\_64\_10} & $AUX\_ENDO\_LAG\_64\_10$ & AUX\_ENDO\_LAG\_64\_10\\
+\texttt{AUX\_ENDO\_LAG\_64\_11} & $AUX\_ENDO\_LAG\_64\_11$ & AUX\_ENDO\_LAG\_64\_11\\
+\texttt{AUX\_ENDO\_LAG\_64\_12} & $AUX\_ENDO\_LAG\_64\_12$ & AUX\_ENDO\_LAG\_64\_12\\
+\texttt{AUX\_ENDO\_LAG\_64\_13} & $AUX\_ENDO\_LAG\_64\_13$ & AUX\_ENDO\_LAG\_64\_13\\
+\texttt{AUX\_ENDO\_LAG\_64\_14} & $AUX\_ENDO\_LAG\_64\_14$ & AUX\_ENDO\_LAG\_64\_14\\
+\texttt{AUX\_ENDO\_LAG\_64\_15} & $AUX\_ENDO\_LAG\_64\_15$ & AUX\_ENDO\_LAG\_64\_15\\
+\texttt{AUX\_ENDO\_LAG\_64\_16} & $AUX\_ENDO\_LAG\_64\_16$ & AUX\_ENDO\_LAG\_64\_16\\
+\texttt{AUX\_ENDO\_LAG\_64\_17} & $AUX\_ENDO\_LAG\_64\_17$ & AUX\_ENDO\_LAG\_64\_17\\
+\texttt{AUX\_ENDO\_LAG\_64\_18} & $AUX\_ENDO\_LAG\_64\_18$ & AUX\_ENDO\_LAG\_64\_18\\
+\texttt{AUX\_ENDO\_LAG\_64\_19} & $AUX\_ENDO\_LAG\_64\_19$ & AUX\_ENDO\_LAG\_64\_19\\
+\texttt{AUX\_ENDO\_LAG\_64\_20} & $AUX\_ENDO\_LAG\_64\_20$ & AUX\_ENDO\_LAG\_64\_20\\
+\texttt{AUX\_ENDO\_LAG\_64\_21} & $AUX\_ENDO\_LAG\_64\_21$ & AUX\_ENDO\_LAG\_64\_21\\
+\texttt{AUX\_ENDO\_LAG\_64\_22} & $AUX\_ENDO\_LAG\_64\_22$ & AUX\_ENDO\_LAG\_64\_22\\
+\texttt{AUX\_ENDO\_LAG\_64\_23} & $AUX\_ENDO\_LAG\_64\_23$ & AUX\_ENDO\_LAG\_64\_23\\
+\texttt{AUX\_ENDO\_LAG\_64\_24} & $AUX\_ENDO\_LAG\_64\_24$ & AUX\_ENDO\_LAG\_64\_24\\
+\texttt{AUX\_ENDO\_LAG\_64\_25} & $AUX\_ENDO\_LAG\_64\_25$ & AUX\_ENDO\_LAG\_64\_25\\
+\texttt{AUX\_ENDO\_LAG\_64\_26} & $AUX\_ENDO\_LAG\_64\_26$ & AUX\_ENDO\_LAG\_64\_26\\
+\texttt{AUX\_ENDO\_LAG\_64\_27} & $AUX\_ENDO\_LAG\_64\_27$ & AUX\_ENDO\_LAG\_64\_27\\
+\texttt{AUX\_ENDO\_LAG\_64\_28} & $AUX\_ENDO\_LAG\_64\_28$ & AUX\_ENDO\_LAG\_64\_28\\
+\texttt{AUX\_ENDO\_LAG\_64\_29} & $AUX\_ENDO\_LAG\_64\_29$ & AUX\_ENDO\_LAG\_64\_29\\
+\texttt{AUX\_ENDO\_LAG\_64\_30} & $AUX\_ENDO\_LAG\_64\_30$ & AUX\_ENDO\_LAG\_64\_30\\
+\texttt{AUX\_ENDO\_LAG\_64\_31} & $AUX\_ENDO\_LAG\_64\_31$ & AUX\_ENDO\_LAG\_64\_31\\
+\texttt{AUX\_ENDO\_LAG\_64\_32} & $AUX\_ENDO\_LAG\_64\_32$ & AUX\_ENDO\_LAG\_64\_32\\
+\texttt{AUX\_ENDO\_LAG\_64\_33} & $AUX\_ENDO\_LAG\_64\_33$ & AUX\_ENDO\_LAG\_64\_33\\
+\texttt{AUX\_ENDO\_LAG\_64\_34} & $AUX\_ENDO\_LAG\_64\_34$ & AUX\_ENDO\_LAG\_64\_34\\
+\texttt{AUX\_ENDO\_LAG\_64\_35} & $AUX\_ENDO\_LAG\_64\_35$ & AUX\_ENDO\_LAG\_64\_35\\
+\texttt{AUX\_ENDO\_LAG\_64\_36} & $AUX\_ENDO\_LAG\_64\_36$ & AUX\_ENDO\_LAG\_64\_36\\
+\texttt{AUX\_ENDO\_LAG\_64\_37} & $AUX\_ENDO\_LAG\_64\_37$ & AUX\_ENDO\_LAG\_64\_37\\
+\texttt{AUX\_ENDO\_LAG\_64\_38} & $AUX\_ENDO\_LAG\_64\_38$ & AUX\_ENDO\_LAG\_64\_38\\
+\texttt{AUX\_EXO\_LAG\_69\_0} & $AUX\_EXO\_LAG\_69\_0$ & AUX\_EXO\_LAG\_69\_0\\
+\texttt{AUX\_EXO\_LAG\_69\_1} & $AUX\_EXO\_LAG\_69\_1$ & AUX\_EXO\_LAG\_69\_1\\
+\texttt{AUX\_EXO\_LAG\_69\_2} & $AUX\_EXO\_LAG\_69\_2$ & AUX\_EXO\_LAG\_69\_2\\
+\texttt{AUX\_EXO\_LAG\_69\_3} & $AUX\_EXO\_LAG\_69\_3$ & AUX\_EXO\_LAG\_69\_3\\
+\texttt{AUX\_EXO\_LAG\_69\_4} & $AUX\_EXO\_LAG\_69\_4$ & AUX\_EXO\_LAG\_69\_4\\
+\texttt{AUX\_EXO\_LAG\_69\_5} & $AUX\_EXO\_LAG\_69\_5$ & AUX\_EXO\_LAG\_69\_5\\
+\texttt{AUX\_EXO\_LAG\_69\_6} & $AUX\_EXO\_LAG\_69\_6$ & AUX\_EXO\_LAG\_69\_6\\
+\texttt{AUX\_EXO\_LAG\_69\_7} & $AUX\_EXO\_LAG\_69\_7$ & AUX\_EXO\_LAG\_69\_7\\
+\texttt{AUX\_EXO\_LAG\_69\_8} & $AUX\_EXO\_LAG\_69\_8$ & AUX\_EXO\_LAG\_69\_8\\
+\texttt{AUX\_EXO\_LAG\_69\_9} & $AUX\_EXO\_LAG\_69\_9$ & AUX\_EXO\_LAG\_69\_9\\
+\texttt{AUX\_EXO\_LAG\_69\_10} & $AUX\_EXO\_LAG\_69\_10$ & AUX\_EXO\_LAG\_69\_10\\
+\texttt{AUX\_EXO\_LAG\_69\_11} & $AUX\_EXO\_LAG\_69\_11$ & AUX\_EXO\_LAG\_69\_11\\
+\texttt{AUX\_EXO\_LAG\_69\_12} & $AUX\_EXO\_LAG\_69\_12$ & AUX\_EXO\_LAG\_69\_12\\
+\texttt{AUX\_EXO\_LAG\_69\_13} & $AUX\_EXO\_LAG\_69\_13$ & AUX\_EXO\_LAG\_69\_13\\
+\texttt{AUX\_EXO\_LAG\_69\_14} & $AUX\_EXO\_LAG\_69\_14$ & AUX\_EXO\_LAG\_69\_14\\
+\texttt{AUX\_EXO\_LAG\_69\_15} & $AUX\_EXO\_LAG\_69\_15$ & AUX\_EXO\_LAG\_69\_15\\
+\texttt{AUX\_EXO\_LAG\_69\_16} & $AUX\_EXO\_LAG\_69\_16$ & AUX\_EXO\_LAG\_69\_16\\
+\texttt{AUX\_EXO\_LAG\_69\_17} & $AUX\_EXO\_LAG\_69\_17$ & AUX\_EXO\_LAG\_69\_17\\
+\texttt{AUX\_EXO\_LAG\_69\_18} & $AUX\_EXO\_LAG\_69\_18$ & AUX\_EXO\_LAG\_69\_18\\
+\texttt{AUX\_EXO\_LAG\_69\_19} & $AUX\_EXO\_LAG\_69\_19$ & AUX\_EXO\_LAG\_69\_19\\
+\texttt{AUX\_EXO\_LAG\_69\_20} & $AUX\_EXO\_LAG\_69\_20$ & AUX\_EXO\_LAG\_69\_20\\
+\texttt{AUX\_EXO\_LAG\_69\_21} & $AUX\_EXO\_LAG\_69\_21$ & AUX\_EXO\_LAG\_69\_21\\
+\texttt{AUX\_EXO\_LAG\_69\_22} & $AUX\_EXO\_LAG\_69\_22$ & AUX\_EXO\_LAG\_69\_22\\
+\texttt{AUX\_EXO\_LAG\_69\_23} & $AUX\_EXO\_LAG\_69\_23$ & AUX\_EXO\_LAG\_69\_23\\
+\texttt{AUX\_EXO\_LAG\_69\_24} & $AUX\_EXO\_LAG\_69\_24$ & AUX\_EXO\_LAG\_69\_24\\
+\texttt{AUX\_EXO\_LAG\_69\_25} & $AUX\_EXO\_LAG\_69\_25$ & AUX\_EXO\_LAG\_69\_25\\
+\texttt{AUX\_EXO\_LAG\_69\_26} & $AUX\_EXO\_LAG\_69\_26$ & AUX\_EXO\_LAG\_69\_26\\
+\texttt{AUX\_EXO\_LAG\_69\_27} & $AUX\_EXO\_LAG\_69\_27$ & AUX\_EXO\_LAG\_69\_27\\
+\texttt{AUX\_EXO\_LAG\_69\_28} & $AUX\_EXO\_LAG\_69\_28$ & AUX\_EXO\_LAG\_69\_28\\
+\texttt{AUX\_EXO\_LAG\_69\_29} & $AUX\_EXO\_LAG\_69\_29$ & AUX\_EXO\_LAG\_69\_29\\
+\texttt{AUX\_EXO\_LAG\_69\_30} & $AUX\_EXO\_LAG\_69\_30$ & AUX\_EXO\_LAG\_69\_30\\
+\texttt{AUX\_EXO\_LAG\_69\_31} & $AUX\_EXO\_LAG\_69\_31$ & AUX\_EXO\_LAG\_69\_31\\
+\texttt{AUX\_EXO\_LAG\_69\_32} & $AUX\_EXO\_LAG\_69\_32$ & AUX\_EXO\_LAG\_69\_32\\
+\texttt{AUX\_EXO\_LAG\_69\_33} & $AUX\_EXO\_LAG\_69\_33$ & AUX\_EXO\_LAG\_69\_33\\
+\texttt{AUX\_EXO\_LAG\_69\_34} & $AUX\_EXO\_LAG\_69\_34$ & AUX\_EXO\_LAG\_69\_34\\
+\texttt{AUX\_EXO\_LAG\_69\_35} & $AUX\_EXO\_LAG\_69\_35$ & AUX\_EXO\_LAG\_69\_35\\
+\texttt{AUX\_EXO\_LAG\_69\_36} & $AUX\_EXO\_LAG\_69\_36$ & AUX\_EXO\_LAG\_69\_36\\
+\texttt{AUX\_EXO\_LAG\_69\_37} & $AUX\_EXO\_LAG\_69\_37$ & AUX\_EXO\_LAG\_69\_37\\
+\texttt{AUX\_EXO\_LAG\_69\_38} & $AUX\_EXO\_LAG\_69\_38$ & AUX\_EXO\_LAG\_69\_38\\
+\hline%
+\end{longtable}
+\end{center}
+\begin{center}
+\begin{longtable}{ccc}
+\caption{Exogenous}\\%
+\hline%
+\multicolumn{1}{c}{\textbf{Variable}} &
+\multicolumn{1}{c}{\textbf{\LaTeX}} &
+\multicolumn{1}{c}{\textbf{Description}}\\%
+\hline\hline%
+\endfirsthead
+\multicolumn{3}{c}{{\tablename} \thetable{} -- Continued}\\%
+\hline%
+\multicolumn{1}{c}{\textbf{Variable}} &
+\multicolumn{1}{c}{\textbf{\LaTeX}} &
+\multicolumn{1}{c}{\textbf{Description}}\\%
+\hline\hline%
+\endhead
+\texttt{delall} & $delall$ & delall\\
+\hline%
+\end{longtable}
+\end{center}
+\begin{center}
+\begin{longtable}{ccc}
+\caption{Parameters}\\%
+\hline%
+\multicolumn{1}{c}{\textbf{Variable}} &
+\multicolumn{1}{c}{\textbf{\LaTeX}} &
+\multicolumn{1}{c}{\textbf{Description}}\\%
+\hline\hline%
+\endfirsthead
+\multicolumn{3}{c}{{\tablename} \thetable{} -- Continued}\\%
+\hline%
+\multicolumn{1}{c}{\textbf{Variable}} &
+\multicolumn{1}{c}{\textbf{\LaTeX}} &
+\multicolumn{1}{c}{\textbf{Description}}\\%
+\hline\hline%
+\endhead
+\texttt{R\_SS\_star} & $R\_SS\_star$ & R\_SS\_star\\
+\texttt{ZETAYSS\_star} & ${ZETAYSS^*}$ & steady state of young / worker \\
+\texttt{ZETARSS\_star} & ${ZETARSS^*}$ & steady state of retiree / worker \\
+\texttt{SHINNOVW\_star} & ${SHINNOVW^*}$ & share of innovation workers\\
+\texttt{YINNOVSH\_star} & ${\kappa^*}$ & scale parameter to match new young innovators\\
+\texttt{ETAR\_star} & ${\eta^r^*}$ & replacement ratio\\
+\texttt{DELTAHE\_star} & ${\delta_{HE}^*}$ & share of health expenditure to GDP per capita\\
+\texttt{NP\_star} & ${n_p^*}$ & average working years\\
+\texttt{FERTSS\_star} & ${FERTSS^*}$ & steady state of fertility\\
+\texttt{RHOYW\_star} & ${\rho^{yw}^*}$ & importance of young innovators in aggregate new ideas\\
+\texttt{LAMY\_star} & ${\lam^{yw}^*}$ & rate of no longer active in innovation sector\\
+\texttt{PSISS\_star} & ${PSISS^*}$ & steady state of operation cost\\
+\texttt{GSS\_star} & ${GSS^*}$ & steady state of growth rate\\
+\texttt{PERS\_star} & $PERS\_star$ & PERS\_star\\
+\texttt{RATIODEL\_star} & ${\epsilon^{\delta^{\prime}}^*}$ & elasticity of delta prime to capital utilization\\
+\texttt{OMEGAR\_star} & ${\omega^w^*}$ & rate of staying workers\\
+\texttt{RHOU\_star} & ${\rho_U^*}$ & preference parameter\\
+\texttt{BBETA\_star} & ${\beta^*}$ & subjective discount factor\\
+\texttt{ALPHA\_star} & ${\alpha^*}$ & fixed capital share of added value\\
+\texttt{GAMMAI\_star} & ${\gamma_I^*}$ & intermediate good share\\
+\texttt{VARNU\_star} & ${\vartheta^*}$ & markup of intermediate firms\\
+\texttt{BMEGA\_star} & ${BMEGA^*}$ & scale parameter of operation cost\\
+\texttt{CHI\_star} & ${\chi^*}$ & scale parameter in innovation process\\
+\texttt{RHO\_star} & ${\rho^*}$ & R\&D elasticity of new technology creation in equilibrium\\
+\texttt{PHI\_star} & ${\phi^*}$ & survival rate of new ideas or prototypes\\
+\texttt{ELASMU\_star} & ${\epsilon_{\mu}^*}$ & elasticity of markup of input firms to number of input firms\\
+\texttt{ELASLAM\_star} & ${\epsilon_{\lambda}^*}$ & elasticity of \lambda\\
+\texttt{DELPRIMESS\_star} & ${DELPRIMESS^*}$ & steady state of \delta^{prime}\\
+\texttt{DELSS\_star} & ${DELSS^*}$ & steady state of \delta\\
+\texttt{MUSS\_star} & ${MUSS^*}$ & steady state of \mu\\
+\texttt{LAMSS\_star} & ${LAMSS^*}$ & steady state of \lambda\\
+\texttt{USS\_star} & ${USS^*}$ & steady state of capital utilization\\
+\texttt{VARPISS\_star} & ${VARPISS^*}$ & steady state of \varpi\\
+\texttt{ZASS\_star} & ${ZASS^*}$ & steady state of z\_a\\
+\texttt{KSS\_star} & ${KSS^*}$ & steady state of k\\
+\texttt{NSS\_star} & ${NSS^*}$ & steady state of g^n\\
+\texttt{GAMMASS\_star} & ${GAMMASS^*}$ & steady state of \gamma\\
+\texttt{RHOE\_star} & ${\rho_E^*}$ & obsolescence of labor skills\\
+\texttt{CHIE\_star} & ${\chi_E^*}$ & scale parameter in average effective units process\\
+\texttt{gn\_1\_star} & $gn\_1\_star$ & gn\_1\_star\\
+\texttt{gn\_2\_star} & $gn\_2\_star$ & gn\_2\_star\\
+\texttt{gn\_3\_star} & $gn\_3\_star$ & gn\_3\_star\\
+\texttt{gn\_4\_star} & $gn\_4\_star$ & gn\_4\_star\\
+\texttt{gn\_5\_star} & $gn\_5\_star$ & gn\_5\_star\\
+\texttt{gn\_6\_star} & $gn\_6\_star$ & gn\_6\_star\\
+\texttt{gn\_7\_star} & $gn\_7\_star$ & gn\_7\_star\\
+\texttt{gn\_8\_star} & $gn\_8\_star$ & gn\_8\_star\\
+\texttt{gn\_9\_star} & $gn\_9\_star$ & gn\_9\_star\\
+\texttt{gn\_10\_star} & $gn\_10\_star$ & gn\_10\_star\\
+\texttt{gn\_11\_star} & $gn\_11\_star$ & gn\_11\_star\\
+\texttt{gn\_12\_star} & $gn\_12\_star$ & gn\_12\_star\\
+\texttt{gn\_13\_star} & $gn\_13\_star$ & gn\_13\_star\\
+\texttt{gn\_14\_star} & $gn\_14\_star$ & gn\_14\_star\\
+\texttt{gn\_15\_star} & $gn\_15\_star$ & gn\_15\_star\\
+\texttt{gn\_16\_star} & $gn\_16\_star$ & gn\_16\_star\\
+\texttt{gn\_17\_star} & $gn\_17\_star$ & gn\_17\_star\\
+\texttt{gn\_18\_star} & $gn\_18\_star$ & gn\_18\_star\\
+\texttt{gn\_19\_star} & $gn\_19\_star$ & gn\_19\_star\\
+\texttt{gn\_20\_star} & $gn\_20\_star$ & gn\_20\_star\\
+\texttt{gn\_21\_star} & $gn\_21\_star$ & gn\_21\_star\\
+\texttt{gn\_22\_star} & $gn\_22\_star$ & gn\_22\_star\\
+\texttt{gn\_23\_star} & $gn\_23\_star$ & gn\_23\_star\\
+\texttt{gn\_24\_star} & $gn\_24\_star$ & gn\_24\_star\\
+\texttt{gn\_25\_star} & $gn\_25\_star$ & gn\_25\_star\\
+\texttt{gn\_26\_star} & $gn\_26\_star$ & gn\_26\_star\\
+\texttt{gn\_27\_star} & $gn\_27\_star$ & gn\_27\_star\\
+\texttt{gn\_28\_star} & $gn\_28\_star$ & gn\_28\_star\\
+\texttt{gn\_29\_star} & $gn\_29\_star$ & gn\_29\_star\\
+\texttt{gn\_30\_star} & $gn\_30\_star$ & gn\_30\_star\\
+\texttt{gn\_31\_star} & $gn\_31\_star$ & gn\_31\_star\\
+\texttt{gn\_32\_star} & $gn\_32\_star$ & gn\_32\_star\\
+\texttt{gn\_33\_star} & $gn\_33\_star$ & gn\_33\_star\\
+\texttt{gn\_34\_star} & $gn\_34\_star$ & gn\_34\_star\\
+\texttt{gn\_35\_star} & $gn\_35\_star$ & gn\_35\_star\\
+\texttt{gn\_36\_star} & $gn\_36\_star$ & gn\_36\_star\\
+\texttt{gn\_37\_star} & $gn\_37\_star$ & gn\_37\_star\\
+\texttt{gn\_38\_star} & $gn\_38\_star$ & gn\_38\_star\\
+\texttt{gn\_39\_star} & $gn\_39\_star$ & gn\_39\_star\\
+\texttt{gn\_40\_star} & $gn\_40\_star$ & gn\_40\_star\\
+\texttt{dws\_1\_star} & $dws\_1\_star$ & dws\_1\_star\\
+\texttt{dws\_2\_star} & $dws\_2\_star$ & dws\_2\_star\\
+\texttt{dws\_3\_star} & $dws\_3\_star$ & dws\_3\_star\\
+\texttt{dws\_4\_star} & $dws\_4\_star$ & dws\_4\_star\\
+\texttt{dws\_5\_star} & $dws\_5\_star$ & dws\_5\_star\\
+\texttt{dws\_6\_star} & $dws\_6\_star$ & dws\_6\_star\\
+\texttt{dws\_7\_star} & $dws\_7\_star$ & dws\_7\_star\\
+\texttt{dws\_8\_star} & $dws\_8\_star$ & dws\_8\_star\\
+\texttt{dws\_9\_star} & $dws\_9\_star$ & dws\_9\_star\\
+\texttt{dws\_10\_star} & $dws\_10\_star$ & dws\_10\_star\\
+\texttt{dws\_11\_star} & $dws\_11\_star$ & dws\_11\_star\\
+\texttt{dws\_12\_star} & $dws\_12\_star$ & dws\_12\_star\\
+\texttt{dws\_13\_star} & $dws\_13\_star$ & dws\_13\_star\\
+\texttt{dws\_14\_star} & $dws\_14\_star$ & dws\_14\_star\\
+\texttt{dws\_15\_star} & $dws\_15\_star$ & dws\_15\_star\\
+\texttt{dws\_16\_star} & $dws\_16\_star$ & dws\_16\_star\\
+\texttt{dws\_17\_star} & $dws\_17\_star$ & dws\_17\_star\\
+\texttt{dws\_18\_star} & $dws\_18\_star$ & dws\_18\_star\\
+\texttt{dws\_19\_star} & $dws\_19\_star$ & dws\_19\_star\\
+\texttt{dws\_20\_star} & $dws\_20\_star$ & dws\_20\_star\\
+\texttt{dws\_21\_star} & $dws\_21\_star$ & dws\_21\_star\\
+\texttt{dws\_22\_star} & $dws\_22\_star$ & dws\_22\_star\\
+\texttt{dws\_23\_star} & $dws\_23\_star$ & dws\_23\_star\\
+\texttt{dws\_24\_star} & $dws\_24\_star$ & dws\_24\_star\\
+\texttt{dws\_25\_star} & $dws\_25\_star$ & dws\_25\_star\\
+\texttt{dws\_26\_star} & $dws\_26\_star$ & dws\_26\_star\\
+\texttt{dws\_27\_star} & $dws\_27\_star$ & dws\_27\_star\\
+\texttt{dws\_28\_star} & $dws\_28\_star$ & dws\_28\_star\\
+\texttt{dws\_29\_star} & $dws\_29\_star$ & dws\_29\_star\\
+\texttt{dws\_30\_star} & $dws\_30\_star$ & dws\_30\_star\\
+\texttt{dws\_31\_star} & $dws\_31\_star$ & dws\_31\_star\\
+\texttt{dws\_32\_star} & $dws\_32\_star$ & dws\_32\_star\\
+\texttt{dws\_33\_star} & $dws\_33\_star$ & dws\_33\_star\\
+\texttt{dws\_34\_star} & $dws\_34\_star$ & dws\_34\_star\\
+\texttt{dws\_35\_star} & $dws\_35\_star$ & dws\_35\_star\\
+\texttt{dws\_36\_star} & $dws\_36\_star$ & dws\_36\_star\\
+\texttt{dws\_37\_star} & $dws\_37\_star$ & dws\_37\_star\\
+\texttt{dws\_38\_star} & $dws\_38\_star$ & dws\_38\_star\\
+\texttt{dws\_39\_star} & $dws\_39\_star$ & dws\_39\_star\\
+\texttt{dws\_40\_star} & $dws\_40\_star$ & dws\_40\_star\\
+\texttt{drs\_1\_star} & $drs\_1\_star$ & drs\_1\_star\\
+\texttt{drs\_2\_star} & $drs\_2\_star$ & drs\_2\_star\\
+\texttt{drs\_3\_star} & $drs\_3\_star$ & drs\_3\_star\\
+\texttt{drs\_4\_star} & $drs\_4\_star$ & drs\_4\_star\\
+\texttt{drs\_5\_star} & $drs\_5\_star$ & drs\_5\_star\\
+\texttt{drs\_6\_star} & $drs\_6\_star$ & drs\_6\_star\\
+\texttt{drs\_7\_star} & $drs\_7\_star$ & drs\_7\_star\\
+\texttt{drs\_8\_star} & $drs\_8\_star$ & drs\_8\_star\\
+\texttt{drs\_9\_star} & $drs\_9\_star$ & drs\_9\_star\\
+\texttt{drs\_10\_star} & $drs\_10\_star$ & drs\_10\_star\\
+\texttt{drs\_11\_star} & $drs\_11\_star$ & drs\_11\_star\\
+\texttt{drs\_12\_star} & $drs\_12\_star$ & drs\_12\_star\\
+\texttt{drs\_13\_star} & $drs\_13\_star$ & drs\_13\_star\\
+\texttt{drs\_14\_star} & $drs\_14\_star$ & drs\_14\_star\\
+\texttt{drs\_15\_star} & $drs\_15\_star$ & drs\_15\_star\\
+\texttt{drs\_16\_star} & $drs\_16\_star$ & drs\_16\_star\\
+\texttt{drs\_17\_star} & $drs\_17\_star$ & drs\_17\_star\\
+\texttt{drs\_18\_star} & $drs\_18\_star$ & drs\_18\_star\\
+\texttt{drs\_19\_star} & $drs\_19\_star$ & drs\_19\_star\\
+\texttt{drs\_20\_star} & $drs\_20\_star$ & drs\_20\_star\\
+\texttt{drs\_21\_star} & $drs\_21\_star$ & drs\_21\_star\\
+\texttt{drs\_22\_star} & $drs\_22\_star$ & drs\_22\_star\\
+\texttt{drs\_23\_star} & $drs\_23\_star$ & drs\_23\_star\\
+\texttt{drs\_24\_star} & $drs\_24\_star$ & drs\_24\_star\\
+\texttt{drs\_25\_star} & $drs\_25\_star$ & drs\_25\_star\\
+\texttt{drs\_26\_star} & $drs\_26\_star$ & drs\_26\_star\\
+\texttt{drs\_27\_star} & $drs\_27\_star$ & drs\_27\_star\\
+\texttt{drs\_28\_star} & $drs\_28\_star$ & drs\_28\_star\\
+\texttt{drs\_29\_star} & $drs\_29\_star$ & drs\_29\_star\\
+\texttt{drs\_30\_star} & $drs\_30\_star$ & drs\_30\_star\\
+\texttt{drs\_31\_star} & $drs\_31\_star$ & drs\_31\_star\\
+\texttt{drs\_32\_star} & $drs\_32\_star$ & drs\_32\_star\\
+\texttt{drs\_33\_star} & $drs\_33\_star$ & drs\_33\_star\\
+\texttt{drs\_34\_star} & $drs\_34\_star$ & drs\_34\_star\\
+\texttt{drs\_35\_star} & $drs\_35\_star$ & drs\_35\_star\\
+\texttt{drs\_36\_star} & $drs\_36\_star$ & drs\_36\_star\\
+\texttt{drs\_37\_star} & $drs\_37\_star$ & drs\_37\_star\\
+\texttt{drs\_38\_star} & $drs\_38\_star$ & drs\_38\_star\\
+\texttt{drs\_39\_star} & $drs\_39\_star$ & drs\_39\_star\\
+\texttt{drs\_40\_star} & $drs\_40\_star$ & drs\_40\_star\\
+\hline%
+\end{longtable}
+\end{center}

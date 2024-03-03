@@ -1,0 +1,119 @@
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 30 auxiliary variables and equations.
+Substitution of exo lags: added 30 auxiliary variables and equations.
+Found 126 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+[경고: 행렬이 설정된 작업 정밀도에서 특이 행렬입니다.] 
+[> <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region>dogleg', 'C:\dynare\4.6.4\matlab\trust_region.m', 198)" style="font-weight:bold">trust_region>dogleg</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',198,0)">198번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', 'C:\dynare\4.6.4\matlab\trust_region.m', 115)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',115,0)">115번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare_solve', 'C:\dynare\4.6.4\matlab\dynare_solve.m', 255)" style="font-weight:bold">dynare_solve</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare_solve.m',255,0)">255번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('evaluate_steady_state', 'C:\dynare\4.6.4\matlab\evaluate_steady_state.m', 221)" style="font-weight:bold">evaluate_steady_state</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\evaluate_steady_state.m',221,0)">221번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady_', 'C:\dynare\4.6.4\matlab\steady_.m', 55)" style="font-weight:bold">steady_</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady_.m',55,0)">55번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'C:\dynare\4.6.4\matlab\steady.m', 80)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady.m',80,0)">80번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRun_Canada_SOE.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\USCanada2017_SOE_rEqrstar\+DemoMediumRun_Canada_SOE\driver.m', 1812)" style="font-weight:bold">DemoMediumRun_Canada_SOE.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\USCanada2017_SOE_rEqrstar\+DemoMediumRun_Canada_SOE\driver.m',1812,0)">1812번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)번 라인에서
+] 
+[경고: 행렬이 설정된 작업 정밀도에서 특이 행렬입니다.] 
+[> <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region>dogleg', 'C:\dynare\4.6.4\matlab\trust_region.m', 198)" style="font-weight:bold">trust_region>dogleg</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',198,0)">198번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', 'C:\dynare\4.6.4\matlab\trust_region.m', 115)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',115,0)">115번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare_solve', 'C:\dynare\4.6.4\matlab\dynare_solve.m', 255)" style="font-weight:bold">dynare_solve</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare_solve.m',255,0)">255번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('evaluate_steady_state', 'C:\dynare\4.6.4\matlab\evaluate_steady_state.m', 221)" style="font-weight:bold">evaluate_steady_state</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\evaluate_steady_state.m',221,0)">221번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady_', 'C:\dynare\4.6.4\matlab\steady_.m', 55)" style="font-weight:bold">steady_</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady_.m',55,0)">55번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'C:\dynare\4.6.4\matlab\steady.m', 80)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady.m',80,0)">80번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRun_Canada_SOE.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\USCanada2017_SOE_rEqrstar\+DemoMediumRun_Canada_SOE\driver.m', 1812)" style="font-weight:bold">DemoMediumRun_Canada_SOE.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\USCanada2017_SOE_rEqrstar\+DemoMediumRun_Canada_SOE\driver.m',1812,0)">1812번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)번 라인에서
+] 
+
+STEADY-STATE RESULTS:
+
+ca                 		 -0.000953186
+rstar              		 1.0127
+r                  		 1.16107
+rk                 		 0.161071
+w                  		 0.303013
+b                  		 0.103914
+y                  		 0.636328
+varpi              		 0.135076
+s                  		 0.0120429
+inv                		 0.0796414
+c                  		 0.448496
+cw                 		 0.406092
+cwper              		 0.785276
+cr                 		 0.0424037
+crper              		 0.359583
+tauw               		 0.00522951
+N                  		 0.999944
+stoyw              		 0.0132754
+PiF                		 0.0660085
+Tw                 		 0.0354252
+hw                 		 2.05264
+Dr                 		 0.0594508
+Dw                 		 0.443539
+ep                 		 1.5789
+varsig             		 0.128704
+zetar              		 0.228035
+zetay              		 0.705701
+gw                 		 1.01
+g                  		 1.04669
+gE                 		 1.00525
+iy                 		 0.0172583
+gpc                		 1.03633
+gy                 		 1.04669
+zz                 		 1.02096
+far                		 0.134518
+faw                		 0.626081
+dr                 		 0.0116741
+dw                 		 0.0549998
+mu                 		 1.10006
+k                  		 0.657638
+u                  		 0.800217
+del                		 0.0800653
+delprime           		 0.301339
+gM                 		 1.06815
+v                  		 0.708218
+j                  		 0.0895586
+lam                		 0.100094
+gA                 		 1.03091
+za                 		 3.12638
+PiA                		 0.0665388
+PiRD               		 -1.35866e-13
+fa                 		 0.760598
+n                  		 1.01
+gn                 		 1.01
+gamma              		 0.900368
+er                 		 0
+ey                 		 -0.0017343
+en                 		 0
+psi                		 0.708218
+shockr             		 0
+shocky             		 -0.0017343
+shockn             		 0
+fert               		 0.0595961
+omegay             		 0.950404
+shareW             		 0.517134
+shareR             		 0.117925
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print_info', 'C:\dynare\4.6.4\matlab\print_info.m', 32)" style="font-weight:bold">print_info</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\print_info.m',32,0)">32번 라인</a>)
+The generalized Schur (QZ) decomposition failed. For more information, see the
+documentation for Lapack function dgges: info=100, n=98. You can also run
+model_diagnostics to get more information on what may cause this problem.
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('check', 'C:\dynare\4.6.4\matlab\check.m', 48)" style="font-weight:bold">check</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\check.m',48,0)">48번 라인</a>)
+    print_info(info, 0, options);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRun_Canada_SOE.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\USCanada2017_SOE_rEqrstar\+DemoMediumRun_Canada_SOE\driver.m', 1818)" style="font-weight:bold">DemoMediumRun_Canada_SOE.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\USCanada2017_SOE_rEqrstar\+DemoMediumRun_Canada_SOE\driver.m',1818,0)">1818번 라인</a>)
+oo_.dr.eigval = check(M_,options_,oo_);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)
+evalin('base',[fname '.driver']) ;
+} 
+model_diagnostics 
+{입력 인수가 부족합니다.
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('model_diagnostics', 'C:\dynare\4.6.4\matlab\model_diagnostics.m', 38)" style="font-weight:bold">model_diagnostics</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\model_diagnostics.m',38,0)">38번 라인</a>)
+endo_nbr = M.endo_nbr;
+} 

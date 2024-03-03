@@ -1,0 +1,1252 @@
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 41 auxiliary variables and equations.
+Substitution of exo lags: added 39 auxiliary variables and equations.
+Found 153 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+[경고: 행렬이 설정된 작업 정밀도에서 특이 행렬입니다.] 
+[> <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region>dogleg', 'C:\dynare\4.6.4\matlab\trust_region.m', 198)" style="font-weight:bold">trust_region>dogleg</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',198,0)">198번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', 'C:\dynare\4.6.4\matlab\trust_region.m', 115)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',115,0)">115번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare_solve', 'C:\dynare\4.6.4\matlab\dynare_solve.m', 255)" style="font-weight:bold">dynare_solve</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare_solve.m',255,0)">255번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('evaluate_steady_state', 'C:\dynare\4.6.4\matlab\evaluate_steady_state.m', 221)" style="font-weight:bold">evaluate_steady_state</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\evaluate_steady_state.m',221,0)">221번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady_', 'C:\dynare\4.6.4\matlab\steady_.m', 55)" style="font-weight:bold">steady_</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady_.m',55,0)">55번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'C:\dynare\4.6.4\matlab\steady.m', 80)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady.m',80,0)">80번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRunFinal_pop_pension_Kor_SOE.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_pop_pension_Kor_SOE\driver.m', 2217)" style="font-weight:bold">DemoMediumRunFinal_pop_pension_Kor_SOE.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_pop_pension_Kor_SOE\driver.m',2217,0)">2217번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)번 라인에서
+] 
+[경고: 행렬이 설정된 작업 정밀도에서 특이 행렬입니다.] 
+[> <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region>dogleg', 'C:\dynare\4.6.4\matlab\trust_region.m', 198)" style="font-weight:bold">trust_region>dogleg</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',198,0)">198번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', 'C:\dynare\4.6.4\matlab\trust_region.m', 115)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',115,0)">115번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare_solve', 'C:\dynare\4.6.4\matlab\dynare_solve.m', 255)" style="font-weight:bold">dynare_solve</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare_solve.m',255,0)">255번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('evaluate_steady_state', 'C:\dynare\4.6.4\matlab\evaluate_steady_state.m', 221)" style="font-weight:bold">evaluate_steady_state</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\evaluate_steady_state.m',221,0)">221번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady_', 'C:\dynare\4.6.4\matlab\steady_.m', 55)" style="font-weight:bold">steady_</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady_.m',55,0)">55번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'C:\dynare\4.6.4\matlab\steady.m', 80)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady.m',80,0)">80번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRunFinal_pop_pension_Kor_SOE.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_pop_pension_Kor_SOE\driver.m', 2217)" style="font-weight:bold">DemoMediumRunFinal_pop_pension_Kor_SOE.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_pop_pension_Kor_SOE\driver.m',2217,0)">2217번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)번 라인에서
+] 
+
+STEADY-STATE RESULTS:
+
+totB               		 0.0817181
+bstar              		 -6.08374e-07
+rstar              		 1.23433
+r                  		 1.23433
+rk                 		 0.234331
+w                  		 0.30303
+b                  		 0.0817187
+y                  		 0.636364
+varpi              		 0.096235
+s                  		 0.015
+inv                		 0.0664317
+invG               		 1.05782
+c                  		 0.471211
+cw                 		 0.415232
+cr                 		 0.0559796
+tauw               		 0.0270306
+N                  		 1
+stoyw              		 0.0079804
+PiF                		 0.0855988
+Tw                 		 0.145475
+hw                 		 1.63088
+Dr                 		 0.0659116
+Dw                 		 0.469553
+ep                 		 1.45184
+varsig             		 0.164797
+zetar              		 0.227273
+zetay              		 0.7
+gw                 		 1.01
+g                  		 1.05782
+gE                 		 1.005
+iy                 		 0.0171932
+gpc                		 1.04734
+zz                 		 1.0161
+far                		 0.107663
+faw                		 0.483949
+dr                 		 0.0155775
+dw                 		 0.070886
+mu                 		 1.1
+k                  		 0.509894
+u                  		 0.8
+del                		 0.08
+delprime           		 0.392914
+gM                 		 1.08733
+v                  		 0.604039
+j                  		 0.111689
+lam                		 0.1
+gA                 		 1.04213
+za                 		 3.2604
+PiA                		 0.0864635
+PiRD               		 -1.44526e-18
+fa                 		 0.591612
+n                  		 1.01
+gn                 		 1.01
+gy                 		 1.05782
+gamma              		 0.9
+OMEGAY             		 0.95
+fert               		 0.06
+psi                		 0.604039
+tauwE              		 0.00521006
+tauwA              		 0.0218205
+ay                 		 0.00363362
+tpe                		 0.010028
+Pe                 		 0.0424308
+he                 		 0.0117925
+en                 		 0
+ey                 		 -2.22045e-16
+er                 		 2.40691e-10
+shockn             		 0
+shocky             		 -2.22045e-16
+shockr             		 2.40691e-10
+shareW             		 0.518868
+shareR             		 0.117925
+shockR             		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+       2.477e-23        2.477e-23                0
+       6.239e-23        6.239e-23                0
+       1.024e-22        1.024e-22                0
+       1.181e-22       -1.181e-22                0
+       1.225e-22        1.225e-22                0
+       1.609e-22        1.609e-22                0
+       3.184e-22        3.184e-22                0
+       4.165e-22        4.165e-22                0
+       4.421e-22       -4.421e-22                0
+       4.606e-22        4.606e-22                0
+       5.034e-22        5.034e-22                0
+       6.068e-22        6.068e-22                0
+       6.267e-22       -6.267e-22                0
+       6.757e-22        6.757e-22                0
+       7.649e-22       -7.649e-22                0
+       8.729e-22        8.729e-22                0
+       1.043e-21       -1.043e-21                0
+       1.087e-21        1.087e-21                0
+       1.101e-21        1.101e-21                0
+       1.108e-21       -1.108e-21                0
+       1.135e-21        1.135e-21                0
+       1.154e-21        1.154e-21                0
+       1.279e-21       -1.279e-21                0
+       1.386e-21       -1.386e-21                0
+       1.639e-21       -1.639e-21                0
+       1.643e-21        1.643e-21                0
+        1.74e-21         1.74e-21                0
+       1.816e-21       -1.816e-21                0
+        1.84e-21        -1.84e-21                0
+       1.924e-21       -1.924e-21                0
+       1.976e-21       -1.976e-21                0
+       1.986e-21        1.986e-21                0
+       2.074e-21        2.074e-21                0
+       2.241e-21       -2.241e-21                0
+       2.516e-21       -2.516e-21                0
+       2.652e-21        2.652e-21                0
+       2.678e-21       -2.678e-21                0
+       2.692e-21        2.692e-21                0
+       2.695e-21       -2.695e-21                0
+       2.888e-21        2.888e-21                0
+       3.006e-21        3.006e-21                0
+       4.636e-21        4.636e-21                0
+       5.176e-21       -5.176e-21                0
+       9.077e-21        9.077e-21                0
+       1.047e-20       -1.047e-20                0
+       1.066e-20       -1.066e-20                0
+       2.351e-20       -2.351e-20                0
+       2.431e-20        2.431e-20                0
+       3.231e-20        3.231e-20                0
+       3.644e-20       -3.644e-20                0
+       4.307e-20        4.307e-20                0
+        4.67e-20         4.67e-20                0
+       4.895e-20       -4.895e-20                0
+        6.54e-20         6.54e-20                0
+       6.744e-20        6.744e-20                0
+       7.426e-20        7.426e-20                0
+       1.025e-19       -1.025e-19                0
+       1.204e-19       -1.204e-19                0
+       1.552e-19       -1.552e-19                0
+        1.56e-19        -1.56e-19                0
+       1.609e-19       -1.609e-19                0
+       1.685e-19        1.685e-19                0
+       1.693e-19       -1.693e-19                0
+       1.725e-19        1.725e-19                0
+       1.981e-19        1.981e-19                0
+       2.109e-19       -2.109e-19                0
+       2.231e-19        2.231e-19                0
+       2.259e-19       -2.259e-19                0
+       2.299e-19        2.299e-19                0
+       2.479e-19       -2.479e-19                0
+         2.5e-19          2.5e-19                0
+       2.571e-19       -2.571e-19                0
+       2.605e-19        2.605e-19                0
+       2.808e-19       -2.808e-19                0
+       2.999e-19        2.999e-19                0
+       3.163e-19        3.163e-19                0
+       3.412e-19        3.412e-19                0
+       3.623e-19        3.623e-19                0
+       3.963e-19        3.963e-19                0
+       3.399e-18       -3.399e-18                0
+       5.237e-18       -5.237e-18                0
+       6.728e-18        6.728e-18                0
+       3.608e-17        3.608e-17                0
+        4.15e-17        -4.15e-17                0
+       4.243e-17       -4.243e-17                0
+       4.389e-17       -4.389e-17                0
+        5.26e-17        -5.26e-17                0
+       6.398e-17        6.398e-17                0
+       7.212e-17       -7.212e-17                0
+       1.095e-16       -1.095e-16                0
+       1.231e-16       -1.231e-16                0
+       1.484e-16        1.484e-16                0
+       2.775e-16        2.775e-16                0
+       1.023e-15        1.023e-15                0
+       1.657e-14       -1.657e-14                0
+       1.127e-07       -1.916e-11        1.127e-07
+       1.127e-07       -1.916e-11       -1.127e-07
+        1.65e-06        8.272e-07        1.428e-06
+        1.65e-06        8.272e-07       -1.428e-06
+       1.654e-06       -1.654e-06                0
+        3.92e-06        -3.92e-06                0
+        3.92e-06         1.96e-06        3.395e-06
+        3.92e-06         1.96e-06       -3.395e-06
+          0.1903          -0.1903                0
+          0.8551           0.8551                0
+           0.894            0.894                0
+          0.9166           0.9166                0
+          0.9194           0.9194                0
+               1                1                0
+               1                1                0
+           1.228            1.228                0
+           1.228            1.228                0
+           1.228            1.228                0
+           1.248            1.248                0
+           1.309            1.309                0
+           1.315            1.315                0
+           1.418            1.418                0
+           1.445            1.445                0
+           1.789            1.789                0
+           2.343            2.343                0
+       5.639e+16        5.639e+16                0
+       9.584e+16       -9.584e+16                0
+       1.718e+18        1.718e+18                0
+
+
+There are 13 eigenvalue(s) larger than 1 in modulus 
+for 12 forward-looking variable(s)
+
+The rank condition ISN'T verified!
+
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print_info', 'C:\dynare\4.6.4\matlab\print_info.m', 32)" style="font-weight:bold">print_info</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\print_info.m',32,0)">32번 라인</a>)
+Blanchard & Kahn conditions are not satisfied: no stable equilibrium.
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('stoch_simul', 'C:\dynare\4.6.4\matlab\stoch_simul.m', 107)" style="font-weight:bold">stoch_simul</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\stoch_simul.m',107,0)">107번 라인</a>)
+    print_info(info, options_.noprint, options_);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRunFinal_pop_pension_Kor_SOE.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_pop_pension_Kor_SOE\driver.m', 2228)" style="font-weight:bold">DemoMediumRunFinal_pop_pension_Kor_SOE.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_pop_pension_Kor_SOE\driver.m',2228,0)">2228번 라인</a>)
+[info, oo_, options_, M_] = stoch_simul(M_, options_, oo_, var_list_);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)
+evalin('base',[fname '.driver']) ;
+} 
+parampredic_Kor_2019_SOE;
+
+totpop =
+
+  1 ~ 6번 열
+
+    51585058    51764822    51836239    51744876    51628117    51558034
+
+  7 ~ 12번 열
+
+    51500029    51447504    51397309    51348388    51300095    51250905
+
+  13 ~ 18번 열
+
+    51199019    51142848    51082971    51018619    50947857    50868691
+
+  19 ~ 24번 열
+
+    50774771    50660209    50524704    50368731    50193281    49998451
+
+  25 ~ 30번 열
+
+    49784159    49551362    49300187    49029906    48739019    48426874
+
+  31 ~ 36번 열
+
+    48093212    47737283    47358532    46957061    46534046    46090617
+
+  37 ~ 42번 열
+
+    45628975    45151722    44660957    44159136    43649074    43134131
+
+  43 ~ 48번 열
+
+    42617053    42099995    41585534    41074913    40569298    40069340
+
+  49 ~ 53번 열
+
+    39574865    39085966    38602940    38126347    37655867
+
+
+Rsh =
+
+   -0.0008
+   -0.0018
+   -0.0024
+   -0.0029
+   -0.0033
+   -0.0036
+   -0.0039
+   -0.0042
+   -0.0045
+   -0.0048
+   -0.0052
+   -0.0056
+   -0.0060
+   -0.0064
+   -0.0069
+   -0.0074
+   -0.0079
+   -0.0085
+   -0.0090
+   -0.0096
+   -0.0102
+   -0.0107
+   -0.0113
+   -0.0119
+   -0.0125
+   -0.0130
+   -0.0136
+   -0.0141
+   -0.0147
+   -0.0152
+   -0.0158
+   -0.0163
+   -0.0168
+   -0.0173
+   -0.0179
+   -0.0184
+   -0.0188
+   -0.0193
+   -0.0197
+   -0.0202
+
+flag = DemoMediunRunFinal_SS_pension_Kor_2019_SOE01
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462532e-07','1.000000e-06','9.797355e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462531e-07','1.000000e-06','9.797348e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804159e-10','1.000000e-06','5.838466e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804121e-10','1.000000e-06','5.838421e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.560385e-11','1.000000e-06','2.897728e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.569081e-11','1.000000e-06','2.905416e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.350314e-11','1.000000e-06','7.721757e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.351820e-11','1.000000e-06','7.728700e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.230098e-11','1.000000e-06','7.185588e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','2.958860e-07','1.000000e-06','5.771890e-13','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+flag =
+
+    'done'
+
+dynare DemoMediumRunFinal_pop_pension_Kor_SOE01
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 137)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',137,0)">137번 라인</a>)
+Dynare: the name of your .mod file is too long, please shorten it
+} 
+clear
+parampredic_Kor_2019_SOE;
+
+totpop =
+
+  1 ~ 6번 열
+
+    51585058    51764822    51836239    51744876    51628117    51558034
+
+  7 ~ 12번 열
+
+    51500029    51447504    51397309    51348388    51300095    51250905
+
+  13 ~ 18번 열
+
+    51199019    51142848    51082971    51018619    50947857    50868691
+
+  19 ~ 24번 열
+
+    50774771    50660209    50524704    50368731    50193281    49998451
+
+  25 ~ 30번 열
+
+    49784159    49551362    49300187    49029906    48739019    48426874
+
+  31 ~ 36번 열
+
+    48093212    47737283    47358532    46957061    46534046    46090617
+
+  37 ~ 42번 열
+
+    45628975    45151722    44660957    44159136    43649074    43134131
+
+  43 ~ 48번 열
+
+    42617053    42099995    41585534    41074913    40569298    40069340
+
+  49 ~ 53번 열
+
+    39574865    39085966    38602940    38126347    37655867
+
+
+Rsh =
+
+   -0.0008
+   -0.0018
+   -0.0024
+   -0.0029
+   -0.0033
+   -0.0036
+   -0.0039
+   -0.0042
+   -0.0045
+   -0.0048
+   -0.0052
+   -0.0056
+   -0.0060
+   -0.0064
+   -0.0069
+   -0.0074
+   -0.0079
+   -0.0085
+   -0.0090
+   -0.0096
+   -0.0102
+   -0.0107
+   -0.0113
+   -0.0119
+   -0.0125
+   -0.0130
+   -0.0136
+   -0.0141
+   -0.0147
+   -0.0152
+   -0.0158
+   -0.0163
+   -0.0168
+   -0.0173
+   -0.0179
+   -0.0184
+   -0.0188
+   -0.0193
+   -0.0197
+   -0.0202
+
+flag = DemoMediunRunFinal_SS_pension_Kor_2019_SOE01
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462532e-07','1.000000e-06','9.797355e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462531e-07','1.000000e-06','9.797348e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804159e-10','1.000000e-06','5.838466e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804121e-10','1.000000e-06','5.838421e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.560385e-11','1.000000e-06','2.897728e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.569081e-11','1.000000e-06','2.905416e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.350314e-11','1.000000e-06','7.721757e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.351820e-11','1.000000e-06','7.728700e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.230098e-11','1.000000e-06','7.185588e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','2.958860e-07','1.000000e-06','5.771890e-13','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+flag =
+
+    'done'
+
+dynare DemoMediumRunFinal_pop_pension_Kor_SOE01
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 137)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',137,0)">137번 라인</a>)
+Dynare: the name of your .mod file is too long, please shorten it
+} 
+parampredic_Kor_2019_SOE;
+
+totpop =
+
+  1 ~ 6번 열
+
+    51585058    51764822    51836239    51744876    51628117    51558034
+
+  7 ~ 12번 열
+
+    51500029    51447504    51397309    51348388    51300095    51250905
+
+  13 ~ 18번 열
+
+    51199019    51142848    51082971    51018619    50947857    50868691
+
+  19 ~ 24번 열
+
+    50774771    50660209    50524704    50368731    50193281    49998451
+
+  25 ~ 30번 열
+
+    49784159    49551362    49300187    49029906    48739019    48426874
+
+  31 ~ 36번 열
+
+    48093212    47737283    47358532    46957061    46534046    46090617
+
+  37 ~ 42번 열
+
+    45628975    45151722    44660957    44159136    43649074    43134131
+
+  43 ~ 48번 열
+
+    42617053    42099995    41585534    41074913    40569298    40069340
+
+  49 ~ 53번 열
+
+    39574865    39085966    38602940    38126347    37655867
+
+
+Rsh =
+
+   -0.0008
+   -0.0018
+   -0.0024
+   -0.0029
+   -0.0033
+   -0.0036
+   -0.0039
+   -0.0042
+   -0.0045
+   -0.0048
+   -0.0052
+   -0.0056
+   -0.0060
+   -0.0064
+   -0.0069
+   -0.0074
+   -0.0079
+   -0.0085
+   -0.0090
+   -0.0096
+   -0.0102
+   -0.0107
+   -0.0113
+   -0.0119
+   -0.0125
+   -0.0130
+   -0.0136
+   -0.0141
+   -0.0147
+   -0.0152
+   -0.0158
+   -0.0163
+   -0.0168
+   -0.0173
+   -0.0179
+   -0.0184
+   -0.0188
+   -0.0193
+   -0.0197
+   -0.0202
+
+flag = DemoMediunRunFinal_SS_pension_Kor_2019_SOE01
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462532e-07','1.000000e-06','9.797355e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462531e-07','1.000000e-06','9.797348e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804159e-10','1.000000e-06','5.838466e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804121e-10','1.000000e-06','5.838421e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.560385e-11','1.000000e-06','2.897728e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.569081e-11','1.000000e-06','2.905416e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.350314e-11','1.000000e-06','7.721757e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.351820e-11','1.000000e-06','7.728700e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.230098e-11','1.000000e-06','7.185588e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','2.958860e-07','1.000000e-06','5.771890e-13','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+flag =
+
+    'done'
+
+dynare DemoMediumRun_pop_pension_Kor_SOE01
+Using 64-bit preprocessor
+Starting Dynare (version 4.6.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+ERROR: DemoMediumRun_pop_pension_Kor_SOE01.mod: line 277, cols 55-63: Unknown symbol: Rstar
+ERROR: DemoMediumRun_pop_pension_Kor_SOE01.mod: line 277, cols 68-72: Unknown symbol: R
+
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 282)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',282,0)">282번 라인</a>)
+Dynare: preprocessing failed
+} 
+clear
+parampredic_Kor_2019_SOE;
+
+totpop =
+
+  1 ~ 6번 열
+
+    51585058    51764822    51836239    51744876    51628117    51558034
+
+  7 ~ 12번 열
+
+    51500029    51447504    51397309    51348388    51300095    51250905
+
+  13 ~ 18번 열
+
+    51199019    51142848    51082971    51018619    50947857    50868691
+
+  19 ~ 24번 열
+
+    50774771    50660209    50524704    50368731    50193281    49998451
+
+  25 ~ 30번 열
+
+    49784159    49551362    49300187    49029906    48739019    48426874
+
+  31 ~ 36번 열
+
+    48093212    47737283    47358532    46957061    46534046    46090617
+
+  37 ~ 42번 열
+
+    45628975    45151722    44660957    44159136    43649074    43134131
+
+  43 ~ 48번 열
+
+    42617053    42099995    41585534    41074913    40569298    40069340
+
+  49 ~ 53번 열
+
+    39574865    39085966    38602940    38126347    37655867
+
+
+Rsh =
+
+   -0.0008
+   -0.0018
+   -0.0024
+   -0.0029
+   -0.0033
+   -0.0036
+   -0.0039
+   -0.0042
+   -0.0045
+   -0.0048
+   -0.0052
+   -0.0056
+   -0.0060
+   -0.0064
+   -0.0069
+   -0.0074
+   -0.0079
+   -0.0085
+   -0.0090
+   -0.0096
+   -0.0102
+   -0.0107
+   -0.0113
+   -0.0119
+   -0.0125
+   -0.0130
+   -0.0136
+   -0.0141
+   -0.0147
+   -0.0152
+   -0.0158
+   -0.0163
+   -0.0168
+   -0.0173
+   -0.0179
+   -0.0184
+   -0.0188
+   -0.0193
+   -0.0197
+   -0.0202
+
+flag = DemoMediunRunFinal_SS_pension_Kor_2019_SOE01
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462532e-07','1.000000e-06','9.797355e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.462531e-07','1.000000e-06','9.797348e-15','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804159e-10','1.000000e-06','5.838466e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','9.804121e-10','1.000000e-06','5.838421e-19','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.560385e-11','1.000000e-06','2.897728e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','6.569081e-11','1.000000e-06','2.905416e-21','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.350314e-11','1.000000e-06','7.721757e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.351820e-11','1.000000e-06','7.728700e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.230098e-11','1.000000e-06','7.185588e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','2.958860e-07','1.000000e-06','5.771890e-13','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+stoyw_SS =
+
+    0.0080
+
+
+<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">방정식을 풀었습니다</a>.
+
+<a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">함수 허용오차</a> 값을 기준으로 보면
+함수 값 벡터가 0에 가깝고
+기울기를 기준으로 보면 <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">문제가 정칙적인 것 같기 때문에</a> fsolve이(가) 완료되었습니다.
+
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','3.228674e-11','1.000000e-06','7.179250e-22','1.000000e-03'},true,true);;">중지 기준 세부 정보</a>>
+
+flag =
+
+    'done'
+
+dynare DemoMediumRun_pop_pension_Kor_SOE01
+Using 64-bit preprocessor
+Starting Dynare (version 4.6.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 41 auxiliary variables and equations.
+Substitution of exo lags: added 39 auxiliary variables and equations.
+Found 154 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+

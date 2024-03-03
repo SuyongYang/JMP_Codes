@@ -1,0 +1,180 @@
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 30 auxiliary variables and equations.
+Found 94 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+[경고: 행렬이 설정된 작업 정밀도에서 특이 행렬입니다.] 
+[> <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region>dogleg', 'C:\dynare\4.6.4\matlab\trust_region.m', 198)" style="font-weight:bold">trust_region>dogleg</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',198,0)">198번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', 'C:\dynare\4.6.4\matlab\trust_region.m', 115)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',115,0)">115번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare_solve', 'C:\dynare\4.6.4\matlab\dynare_solve.m', 255)" style="font-weight:bold">dynare_solve</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare_solve.m',255,0)">255번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('evaluate_steady_state', 'C:\dynare\4.6.4\matlab\evaluate_steady_state.m', 221)" style="font-weight:bold">evaluate_steady_state</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\evaluate_steady_state.m',221,0)">221번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady_', 'C:\dynare\4.6.4\matlab\steady_.m', 55)" style="font-weight:bold">steady_</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady_.m',55,0)">55번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'C:\dynare\4.6.4\matlab\steady.m', 80)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady.m',80,0)">80번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRunFinal_newpred.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_newpred\driver.m', 1365)" style="font-weight:bold">DemoMediumRunFinal_newpred.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_newpred\driver.m',1365,0)">1365번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('runsimulgraphs_newpred', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\runsimulgraphs_newpred.m', 63)" style="font-weight:bold">runsimulgraphs_newpred</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\runsimulgraphs_newpred.m',63,0)">63번 라인</a>)번 라인에서
+] 
+[경고: 행렬이 설정된 작업 정밀도에서 특이 행렬입니다.] 
+[> <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region>dogleg', 'C:\dynare\4.6.4\matlab\trust_region.m', 198)" style="font-weight:bold">trust_region>dogleg</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',198,0)">198번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', 'C:\dynare\4.6.4\matlab\trust_region.m', 115)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\trust_region.m',115,0)">115번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare_solve', 'C:\dynare\4.6.4\matlab\dynare_solve.m', 255)" style="font-weight:bold">dynare_solve</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare_solve.m',255,0)">255번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('evaluate_steady_state', 'C:\dynare\4.6.4\matlab\evaluate_steady_state.m', 221)" style="font-weight:bold">evaluate_steady_state</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\evaluate_steady_state.m',221,0)">221번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady_', 'C:\dynare\4.6.4\matlab\steady_.m', 55)" style="font-weight:bold">steady_</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady_.m',55,0)">55번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'C:\dynare\4.6.4\matlab\steady.m', 80)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\steady.m',80,0)">80번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('DemoMediumRunFinal_newpred.driver', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_newpred\driver.m', 1365)" style="font-weight:bold">DemoMediumRunFinal_newpred.driver</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\+DemoMediumRunFinal_newpred\driver.m',1365,0)">1365번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">293번 라인</a>)번 라인에서
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('runsimulgraphs_newpred', 'C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\runsimulgraphs_newpred.m', 63)" style="font-weight:bold">runsimulgraphs_newpred</a> (<a href="matlab: opentoline('C:\Users\user\Documents\PhD thesis\Aksoy_ Replication practice\data\ReplicationFiles_Theory\Simul_Projection\runsimulgraphs_newpred.m',63,0)">63번 라인</a>)번 라인에서
+] 
+
+STEADY-STATE RESULTS:
+
+r                  		 1.16107
+rk                 		 0.161071
+w                  		 0.303013
+b                  		 0.103914
+y                  		 0.636328
+varpi              		 0.135076
+s                  		 0.0120429
+inv                		 0.0796414
+c                  		 0.447543
+cw                 		 0.403642
+cwper              		 0.780537
+cr                 		 0.0439008
+crper              		 0.342364
+tauw               		 0.00522951
+N                  		 0.999944
+stoyw              		 0.0132754
+PiF                		 0.0658734
+Tw                 		 0.0357916
+hw                 		 2.07387
+Dr                 		 0.0657384
+Dw                 		 0.44076
+ep                 		 1.53212
+varsig             		 0.127545
+zetar              		 0.24796
+zetay              		 0.685777
+gw                 		 1.01
+g                  		 1.04669
+gE                 		 1.00525
+iy                 		 0.0172583
+gpc                		 1.03633
+gy                 		 1.04669
+zz                 		 1.01916
+far                		 0.143261
+faw                		 0.618291
+dr                 		 0.0123919
+dw                 		 0.0541469
+mu                 		 1.10006
+k                  		 0.657638
+u                  		 0.800217
+del                		 0.0800653
+delprime           		 0.301339
+gM                 		 1.06815
+v                  		 0.708218
+j                  		 0.0895586
+lam                		 0.100094
+gA                 		 1.03091
+za                 		 3.12638
+PiA                		 0.0665388
+PiRD               		 1.06936e-18
+fa                 		 0.761552
+n                  		 1.01
+gn                 		 1.01
+gamma              		 0.909177
+er                 		 0.0103037
+ey                 		 -0.0017343
+en                 		 0
+psi                		 0.708218
+shockr             		 0.0103037
+shocky             		 -0.0017343
+shockn             		 0
+fert               		 0.061037
+omegay             		 0.948963
+shareW             		 0.517134
+shareR             		 0.128228
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+       1.386e-21       -1.386e-21                0
+       1.686e-21        1.686e-21                0
+       1.924e-21        1.924e-21                0
+        3.54e-21        -3.54e-21                0
+        4.65e-21        -4.65e-21                0
+       5.417e-21        5.417e-21                0
+       7.233e-21       -7.233e-21                0
+        7.58e-21        -7.58e-21                0
+       7.963e-21        7.963e-21                0
+       9.159e-21       -9.159e-21                0
+       1.225e-20       -1.225e-20                0
+       1.325e-20        1.325e-20                0
+       1.423e-20       -1.423e-20                0
+       1.479e-20       -1.479e-20                0
+       1.538e-20       -1.538e-20                0
+       1.633e-20        1.633e-20                0
+        1.64e-20         1.64e-20                0
+       2.129e-20       -2.129e-20                0
+       2.463e-20       -2.463e-20                0
+       2.476e-20       -2.476e-20                0
+       2.695e-20        2.695e-20                0
+       2.759e-20       -2.759e-20                0
+       3.168e-20       -3.168e-20                0
+       3.771e-20       -3.771e-20                0
+        5.12e-20        -5.12e-20                0
+       5.183e-20        5.183e-20                0
+       5.963e-20        5.963e-20                0
+       8.386e-20       -8.386e-20                0
+       8.725e-20        8.725e-20                0
+       7.618e-19        7.618e-19                0
+       7.042e-18       -7.042e-18                0
+       2.862e-17       -2.862e-17                0
+       3.912e-17       -3.912e-17                0
+       5.025e-17       -5.025e-17                0
+       6.609e-17        6.609e-17                0
+       9.454e-17       -9.454e-17                0
+       1.466e-16        1.466e-16                0
+       6.302e-16        6.302e-16                0
+       1.376e-15       -1.376e-15                0
+       4.147e-15       -4.147e-15                0
+       6.165e-15       -6.165e-15                0
+       2.712e-09       -2.712e-09                0
+       2.712e-09        2.712e-09                0
+       3.419e-09        3.419e-09                0
+       3.419e-09       -3.419e-09                0
+       3.155e-06       -3.155e-06                0
+       3.155e-06        1.577e-06        2.732e-06
+       3.155e-06        1.577e-06       -2.732e-06
+          0.9105           0.9105                0
+          0.9182           0.9182                0
+          0.9254            0.918           0.1169
+          0.9254            0.918          -0.1169
+               1                1                0
+               1                1                0
+           1.171            1.171                0
+           1.171            1.171                0
+           1.205            1.205                0
+           1.238            1.238                0
+           1.278            1.278                0
+            1.37             1.37                0
+           2.314            2.191           0.7439
+           2.314            2.191          -0.7439
+       4.668e+16       -4.668e+16                0
+       1.794e+17        1.794e+17                0
+       1.543e+18        1.543e+18                0
+       1.961e+18        1.961e+18                0
+
+
+There are 12 eigenvalue(s) larger than 1 in modulus 
+for 12 forward-looking variable(s)
+
+The rank condition is verified.
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex) 
+ restricted \write18 enabled. 
+entering extended mode 
+Total computing time : 0h00m06s
+Note: warning(s) encountered in MATLAB/Octave code

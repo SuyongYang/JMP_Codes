@@ -1,0 +1,252 @@
+% Equation 1
+\begin{dmath}
+{hw}_{t}={w}_{t}+\frac{{OMEGAR}}{{r}_{t}\, {zz}_{t}}\, \frac{{g}_{t+1}}{{gw}_{t}}\, {hw}_{t+1}
+\end{dmath}
+% Equation 2
+\begin{dmath}
+{Tw}_{t}={tauw}_{t}+\frac{{OMEGAR}}{{r}_{t}\, {zz}_{t}}\, \frac{{g}_{t+1}}{{gw}_{t}}\, {Tw}_{t+1}
+\end{dmath}
+% Equation 3
+\begin{dmath}
+{Dr}_{t}={dr}_{t}+\frac{{g}_{t+1}\, {Dr}_{t+1}\, {gamma}\, {zetar}_{t-1}}{{gw}_{t}\, {r}_{t}\, {zetar}_{t}}
+\end{dmath}
+% Equation 4
+\begin{dmath}
+{ay}_{t}=\frac{1}{{NP}}\, {w}_{t-1}\, \left(1-{OMEGAR}\right)+\frac{\left(1-\frac{1}{{NP}}\right)\, {ay}_{t-1}\, {AUX\_ENDO\_LAG\_25\_1}_{t-1}}{{g}_{t}}
+\end{dmath}
+% Equation 5
+\begin{dmath}
+{tpe}_{t}={ay}_{t}\, {ETAR}+{gamma}\, \frac{{gE}_{t-1}}{{g}_{t}}\, {tpe}_{t-1}
+\end{dmath}
+% Equation 6
+\begin{dmath}
+{Pe}_{t}={tpe}_{t}+\frac{{zetar}_{t-1}\, {g}_{t+1}\, {gamma}\, {Pe}_{t+1}}{{gw}_{t}\, {r}_{t}\, {zetar}_{t}}
+\end{dmath}
+% Equation 7
+\begin{dmath}
+{Dw}_{t}={dw}_{t}+\frac{{OMEGAR}}{{r}_{t}\, {zz}_{t}}\, \frac{{g}_{t+1}}{{gw}_{t}}\, {Dw}_{t+1}+\frac{\left(1-{OMEGAR}\right)\, {ep}_{t+1}^{\frac{{RHOU}-1}{{RHOU}}}}{{r}_{t}\, {zz}_{t}}\, \frac{{g}_{t+1}}{{gw}_{t}\, {zetar}_{t}}\, \left({Dr}_{t+1}+{Pe}_{t+1}\right)
+\end{dmath}
+% Equation 8
+\begin{dmath}
+{cw}_{t}={varsig}_{t}\, \left({Dw}_{t}+{hw}_{t}+\frac{{r}_{t-1}\, {faw}_{t-1}}{{g}_{t}}-{Tw}_{t}\right)
+\end{dmath}
+% Equation 9
+\begin{dmath}
+{cr}_{t}={varsig}_{t}\, {ep}_{t}\, \left({Pe}_{t}+{Dr}_{t}+\frac{{r}_{t-1}\, {far}_{t-1}}{{g}_{t}}\right)
+\end{dmath}
+% Equation 10
+\begin{dmath}
+1-{varsig}_{t}\, {ep}_{t}=\frac{{gamma}\, \left({r}_{t}\, {BBETA}\right)^{\frac{1}{1-{RHOU}}}}{{r}_{t}}\, \frac{{varsig}_{t}\, {ep}_{t}}{{ep}_{t+1}\, {varsig}_{t+1}}
+\end{dmath}
+% Equation 11
+\begin{dmath}
+1-{varsig}_{t}=\frac{\left({zz}_{t}\, {r}_{t}\, {BBETA}\right)^{\frac{1}{1-{RHOU}}}}{{r}_{t}\, {zz}_{t}}\, \frac{{varsig}_{t}}{{varsig}_{t+1}}
+\end{dmath}
+% Equation 12
+\begin{dmath}
+{zz}_{t}={OMEGAR}+\left(1-{OMEGAR}\right)\, {ep}_{t+1}^{\frac{{RHOU}-1}{{RHOU}}}
+\end{dmath}
+% Equation 13
+\begin{dmath}
+{he}_{t}={DELTAHE}\, \frac{{zetar}_{t-1}}{1+{zetar}_{t-1}+{zetay}_{t-1}}
+\end{dmath}
+% Equation 14
+\begin{dmath}
+{tauwA}_{t}={tpe}_{t}+{he}_{t}
+\end{dmath}
+% Equation 15
+\begin{dmath}
+{tauwE}_{t}={w}_{t}\, {iy}_{t}
+\end{dmath}
+% Equation 16
+\begin{dmath}
+{tauw}_{t}={tauwA}_{t}+{tauwE}_{t}
+\end{dmath}
+% Equation 17
+\begin{dmath}
+{gw}_{t}={OMEGAR}+{zetay}_{t-1}\, \left(1-{OMEGAY}_{t}\right)
+\end{dmath}
+% Equation 18
+\begin{dmath}
+{n}_{t}={gw}_{t}\, \frac{{zetay}_{t}}{{zetay}_{t-1}}
+\end{dmath}
+% Equation 19
+\begin{dmath}
+{gw}_{t}\, {zetar}_{t}=1-{OMEGAR}+{gamma}\, {zetar}_{t-1}
+\end{dmath}
+% Equation 20
+\begin{dmath}
+{gn}_{t}=\left({gw}_{t}\, {zetar}_{t}+{gw}_{t}+{zetay}_{t-1}\, {n}_{t}\right)\, \left(1+{zetar}_{t-1}+{zetay}_{t-1}\right)^{\left(-1\right)}
+\end{dmath}
+% Equation 21
+\begin{dmath}
+{gE}_{t}=\frac{{OMEGAR}+{zetay}_{t-1}\, \left(1-{OMEGAY}_{t}\right)\, \left({RHOE}+\frac{{CHIE}}{2}\, {iy}_{t}^{2}\right)}{{gw}_{t}}
+\end{dmath}
+% Equation 22
+\begin{dmath}
+{varsig}_{t}^{\frac{\left(-1\right)}{{RHOU}}}=\frac{{g}_{t+1}\, {iy}_{t}\, {CHIE}\, {zetay}_{t-1}\, \left(1-{OMEGAY}_{t}\right)\, {BBETA}\, {varsig}_{t+1}^{\frac{\left(-1\right)}{{RHOU}}}\, {w}_{t+1}}{{w}_{t}\, {gw}_{t}}
+\end{dmath}
+% Equation 23
+\begin{dmath}
+{fert}_{t}={n}_{t}-{OMEGAY}_{t}
+\end{dmath}
+% Equation 24
+\begin{dmath}
+\frac{{tauwE}_{t+1}}{{tauwE}_{t}}=\frac{{w}_{t+1}}{{w}_{t}}
+\end{dmath}
+% Equation 25
+\begin{dmath}
+\frac{{w}_{t+1}}{{w}_{t}}=1+0.01\, {delall}_{t}
+\end{dmath}
+% Equation 26
+\begin{dmath}
+\left(1-{ALPHA}\right)\, \left(1-{GAMMAI}\right)={w}_{t}\, {mu}_{t}
+\end{dmath}
+% Equation 27
+\begin{dmath}
+{ALPHA}\, \left(1-{GAMMAI}\right)={mu}_{t}\, \left({rk}_{t}+{del}_{t}\right)\, \frac{{k}_{t-1}}{{g}_{t}}
+\end{dmath}
+% Equation 28
+\begin{dmath}
+{ALPHA}\, \left(1-{GAMMAI}\right)=\frac{{k}_{t-1}}{{g}_{t}}\, {mu}_{t}\, {delprime}_{t}\, {u}_{t}
+\end{dmath}
+% Equation 29
+\begin{dmath}
+{g}_{t}=\frac{{mu}_{t}}{{mu}_{t-1}}\, {gM}_{t}\, {gA}_{t-1}^{1-{VARNU}}
+\end{dmath}
+% Equation 30
+\begin{dmath}
+{g}_{t}={gM}_{t}^{{GAMMAI}}\, \left({gE}_{t-1}\, {gw}_{t-1}\right)^{\left(1-{ALPHA}\right)\, \left(1-{GAMMAI}\right)}\, \frac{{N}_{t}^{{mu}_{t}-1}}{{N}_{t-1}^{{mu}_{t-1}-1}}\, \left(\frac{{k}_{t-1}\, {u}_{t}\, {g}_{t-1}}{{u}_{t-1}\, {AUX\_ENDO\_LAG\_36\_1}_{t-1}}\right)^{{ALPHA}\, \left(1-{GAMMAI}\right)}
+\end{dmath}
+% Equation 31
+\begin{dmath}
+\frac{{mu}_{t}-1}{{mu}_{t}}\, {N}_{t}^{\left(-{mu}_{t}\right)}={BMEGA}\, {v}_{t}
+\end{dmath}
+% Equation 32
+\begin{dmath}
+{mu}_{t}={MUSS}\, \left(1+{ELASMU}\, \left({N}_{t}-1\right)\right)
+\end{dmath}
+% Equation 33
+\begin{dmath}
+{del}_{t}={DELSS}+{delprime}_{t}\, \left({u}_{t}-{USS}\right)
+\end{dmath}
+% Equation 34
+\begin{dmath}
+{delprime}_{t}={DELPRIMESS}+\frac{\left({u}_{t}-{USS}\right)\, {DELPRIMESS}\, {RATIODEL}}{{USS}}
+\end{dmath}
+% Equation 35
+\begin{dmath}
+{invG}_{t}={g}_{t}\, \frac{{inv}_{t}}{{inv}_{t-1}}
+\end{dmath}
+% Equation 36
+\begin{dmath}
+\frac{{gA}_{t}\, {za}_{t}}{{za}_{t-1}}={stoyw}_{t}^{{RHOYW}}\, {CHI}\, \left(\frac{{s}_{t}}{{psi}_{t}}\right)^{{RHO}}+{PHI}
+\end{dmath}
+% Equation 37
+\begin{dmath}
+{stoyw}_{t}=\frac{{zetay}_{t-1}\, \left(1-{OMEGAY}_{t}\right)\, {YINNOVSH}}{{zetar}_{t-1}+1+{zetay}_{t-1}}+\frac{{OMEGAR}\, \left(1-{LAMY}\right)}{{gn}_{t-1}}\, {stoyw}_{t-1}
+\end{dmath}
+% Equation 38
+\begin{dmath}
+{gA}_{t}={PHI}+{PHI}\, {lam}_{t}\, \left({za}_{t-1}-1\right)
+\end{dmath}
+% Equation 39
+\begin{dmath}
+{s}_{t}={PHI}\, \frac{{g}_{t+1}}{{r}_{t}}\, {j}_{t+1}\, \left(1-\frac{{za}_{t-1}\, {PHI}}{{gA}_{t}\, {za}_{t}}\right)
+\end{dmath}
+% Equation 40
+\begin{dmath}
+{v}_{t}=\frac{{GAMMAI}\, \left(1-\frac{1}{{VARNU}}\right)}{{mu}_{t}}+\frac{{g}_{t+1}}{{gA}_{t}}\, \frac{{PHI}}{{r}_{t}}\, {v}_{t+1}
+\end{dmath}
+% Equation 41
+\begin{dmath}
+{varpi}_{t}=\frac{{PHI}}{{r}_{t}}\, \frac{{g}_{t+1}}{{gA}_{t}}\, {za}_{t-1}\, {lam}_{t}\, {ELASLAM}\, \left({v}_{t+1}-\frac{{j}_{t+1}}{{za}_{t}}\right)
+\end{dmath}
+% Equation 42
+\begin{dmath}
+{j}_{t}=\frac{{PHI}}{{r}_{t}}\, {za}_{t-1}\, \frac{{g}_{t+1}}{{gA}_{t}}\, \left({lam}_{t}\, {v}_{t+1}+\frac{{j}_{t+1}\, \left(1-{lam}_{t}\right)}{{za}_{t}}\right)-{varpi}_{t}
+\end{dmath}
+% Equation 43
+\begin{dmath}
+{lam}_{t}={LAMSS}\, \left(1+{ELASLAM}\, \left(\frac{{varpi}_{t}-{VARPISS}}{{VARPISS}}-\frac{{za}_{t-1}-{ZASS}}{{ZASS}}-\frac{{psi}_{t}-{PSISS}}{{PSISS}}\right)\right)
+\end{dmath}
+% Equation 44
+\begin{dmath}
+{PiA}_{t}=\frac{{GAMMAI}\, \left(1-\frac{1}{{VARNU}}\right)}{{mu}_{t}}-{PHI}\, {j}_{t}\, \left(1-\frac{{PHI}\, {AUX\_ENDO\_LAG\_45\_1}_{t-1}}{{gA}_{t-1}\, {za}_{t-1}}\right)-\frac{{r}_{t-1}\, {varpi}_{t-1}\, \left(1-\frac{1}{{AUX\_ENDO\_LAG\_45\_1}_{t-1}}\right)}{{g}_{t}}
+\end{dmath}
+% Equation 45
+\begin{dmath}
+{PiRD}_{t}={PHI}\, {j}_{t}\, \left(1-\frac{{PHI}\, {AUX\_ENDO\_LAG\_45\_1}_{t-1}}{{gA}_{t-1}\, {za}_{t-1}}\right)-\frac{{r}_{t-1}\, {s}_{t-1}}{{g}_{t}}
+\end{dmath}
+% Equation 46
+\begin{dmath}
+{psi}_{t}={v}_{t}
+\end{dmath}
+% Equation 47
+\begin{dmath}
+{r}_{t}=1+{rk}_{t+1}
+\end{dmath}
+% Equation 48
+\begin{dmath}
+{dr}_{t}=\frac{{far}_{t-1}\, {PiF}_{t}}{{fa}_{t-1}}
+\end{dmath}
+% Equation 49
+\begin{dmath}
+{dw}_{t}=\frac{{faw}_{t-1}\, {PiF}_{t}}{{fa}_{t-1}}+{SHINNOVW}\, \left({PiA}_{t}+{PiRD}_{t}\right)
+\end{dmath}
+% Equation 50
+\begin{dmath}
+{b}_{t}={s}_{t}+{varpi}_{t}\, \left(1-\frac{1}{{za}_{t-1}}\right)
+\end{dmath}
+% Equation 51
+\begin{dmath}
+{PiF}_{t}=\frac{{k}_{t-1}}{{g}_{t}}\, \left(1+{rk}_{t}\right)+\frac{{r}_{t-1}\, {b}_{t-1}}{{g}_{t}}-\frac{{r}_{t-1}\, {fa}_{t-1}}{{g}_{t}}-{k}_{t}-{b}_{t}+{fa}_{t}+\left({PiA}_{t}+{PiRD}_{t}\right)\, \left(1-{SHINNOVW}\right)
+\end{dmath}
+% Equation 52
+\begin{dmath}
+{k}_{t}={inv}_{t}+\frac{{k}_{t-1}}{{g}_{t}}\, \left(1-{del}_{t}\right)
+\end{dmath}
+% Equation 53
+\begin{dmath}
+{y}_{t}=1-\frac{{GAMMAI}}{{mu}_{t}\, {VARNU}}-{psi}_{t}\, {N}_{t}\, {BMEGA}
+\end{dmath}
+% Equation 54
+\begin{dmath}
+{y}_{t}={he}_{t}+{tauwE}_{t}+{varpi}_{t}\, \left(1-\frac{1}{{za}_{t-1}}\right)+{s}_{t}+{inv}_{t}+{c}_{t}
+\end{dmath}
+% Equation 55
+\begin{dmath}
+{c}_{t}={cw}_{t}+{cr}_{t}
+\end{dmath}
+% Equation 56
+\begin{dmath}
+{fa}_{t}={b}_{t}+{k}_{t}
+\end{dmath}
+% Equation 57
+\begin{dmath}
+{far}_{t}={tpe}_{t}+{dr}_{t}+\frac{{r}_{t-1}\, {far}_{t-1}}{{g}_{t}}-{cr}_{t}+\left(1-{OMEGAR}\right)\, \left({dw}_{t}+{w}_{t}+\frac{{r}_{t-1}\, {faw}_{t-1}}{{g}_{t}}-{cw}_{t}-{tauw}_{t}\right)
+\end{dmath}
+% Equation 58
+\begin{dmath}
+{fa}_{t}={far}_{t}+{faw}_{t}
+\end{dmath}
+% Equation 59
+\begin{dmath}
+{gpc}_{t}=\frac{{g}_{t-1}\, \frac{{y}_{t}}{{y}_{t-1}}}{{gn}_{t-1}}
+\end{dmath}
+% Equation 60
+\begin{dmath}
+{gy}_{t}={g}_{t}\, \frac{{y}_{t}}{{y}_{t-1}}
+\end{dmath}
+% Equation 61
+\begin{dmath}
+{AUX\_ENDO\_LAG\_25\_1}_{t}={gw}_{t-1}
+\end{dmath}
+% Equation 62
+\begin{dmath}
+{AUX\_ENDO\_LAG\_36\_1}_{t}={k}_{t-1}
+\end{dmath}
+% Equation 63
+\begin{dmath}
+{AUX\_ENDO\_LAG\_45\_1}_{t}={za}_{t-1}
+\end{dmath}

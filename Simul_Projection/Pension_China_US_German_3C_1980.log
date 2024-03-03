@@ -1,0 +1,4 @@
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 237 auxiliary variables and equations.
+Substitution of exo lags: added 39 auxiliary variables and equations.
+ERROR: There are 487 equations but 488 endogenous variables!
